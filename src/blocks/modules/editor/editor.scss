@@ -83,6 +83,11 @@
         }
     }
 
+    ul {
+        list-style-type: disc;
+        list-style-position: inside;
+    }
+
     ul,
     ol {
         margin-bottom: 2rem;
@@ -97,13 +102,19 @@
 
     li {
         margin-bottom: 1rem;
-        padding-left: rem(25);
     }
 
     ul {
         li {
             position: relative;
-            padding-left: rem(25);
+        }
+    }
+
+    a {
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
         }
     }
 

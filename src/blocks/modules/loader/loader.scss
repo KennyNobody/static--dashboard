@@ -1,0 +1,28 @@
+.loader {
+    &__logo {
+        display: block;
+        width: rem(48);
+        height: rem(44);
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: rem(34);
+    }
+
+    &__line {
+        display: block;
+        height: rem(36);
+        width: rem(340);
+        border-radius: rem(36);
+        border: rem(3) solid $lilac;
+    }
+
+    &__progress {
+        height: 100%;
+        border-radius: rem(36);
+        background-color: $lilac;
+        border-top: 4px solid $light;
+        border-left: 6px solid $light;
+        border-right: 6px solid $light;
+        border-bottom: 4px solid $light;
+    }
+}
