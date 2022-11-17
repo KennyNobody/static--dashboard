@@ -1,0 +1,40 @@
+.selector-lang {
+    top: rem(35);
+    right: rem(50);
+    position: absolute;
+
+    &__button {
+        gap: rem(4);
+        display: flex;
+        padding: rem(6);
+        cursor: pointer;
+        align-items: center;
+        border-radius: rem(8);
+        transition: 0.3s opacity;
+        border: 1px solid $grey-light;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+        width: rem(22);
+        height: rem(22);
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__flag {
+        width: auto;
+        display: block;
+        height: rem(33);
+    }
+
+    &__icon {
+        width: rem(8);
+        height: rem(13);
+    }
+
+}

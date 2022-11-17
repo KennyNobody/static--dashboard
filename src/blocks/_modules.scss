@@ -1,14 +1,20 @@
 @import "modules/body/body";
 @import "modules/breadcrumbs/breadcrumbs";
 @import "modules/button/button";
+@import "modules/checkbox/checkbox";
 @import "modules/columns/columns";
 @import "modules/container/container";
 @import "modules/editor/editor";
+@import "modules/field/field";
 @import "modules/form/form";
 @import "modules/input/input";
+@import "modules/intro/intro";
+@import "modules/layout/layout";
+@import "modules/link/link";
 @import "modules/loader/loader";
 @import "modules/main/main";
 @import "modules/section/section";
+@import "modules/selector-lang/selector-lang";
 @import "modules/title/title";
 
 @include r(1200) {

@@ -1,0 +1,46 @@
+.checkbox {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+
+    &__input {
+        &:checked {
+            & + .checkbox {
+                &__box {
+                    border-color: $lilac;
+                    background-color: $lilac;
+                    .checkbox__icon {
+                        opacity: 1;
+                    }
+                }
+                &__icon {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    &__box {
+        display: flex;
+        width: rem(20);
+        height: rem(20);
+        align-items: center;
+        transition: 0.3s all;
+        border-radius: rem(4);
+        justify-content: center;
+        border: 1px solid $lilac-light;
+    }
+
+    &__caption {
+        display: block;
+        margin-left: rem(13);
+    }
+
+    &__icon {
+        opacity: 0;
+        display: block;
+        width: rem(11);
+        height: rem(10);
+        transition: 0.3s opacity;
+    }
+}

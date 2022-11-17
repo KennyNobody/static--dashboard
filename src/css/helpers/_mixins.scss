@@ -38,7 +38,7 @@
 }
 
 @mixin pt($size) {
-    padding-top: math.div($size, 16) * 1rem;
+    padding-top: math.div($size, 15) * 1rem;
 }
 
 @for $i from 1 through 20 {
@@ -56,7 +56,7 @@
 
 // Padding-bottom class generator
 @mixin pb($size) {
-    padding-bottom: math.div($size, 16) * 1rem;
+    padding-bottom: math.div($size, 15) * 1rem;
 }
 
 @for $i from 1 through 20 {
@@ -75,7 +75,7 @@
 // Margin-bottom class generator
 @mixin mb($size) {
     //margin-bottom: $size + px;
-    margin-bottom: math.div($size, 16) * 1rem;
+    margin-bottom: math.div($size, 15) * 1rem;
 }
 
 @for $i from 1 through 20 {

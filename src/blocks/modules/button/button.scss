@@ -1,11 +1,30 @@
 .button {
+    display: flex;
     cursor: pointer;
-    @include r(1200) {
-       
+    align-items: center;
+    border-radius: rem(8);
+    justify-content: center;
+
+    &--h-44 {
+        min-height: rem(44);
     }
+
+    &--orange-outline {
+        color: $orange;
+        border: 1px solid $orange;
+
+        &:hover {
+            color: $light;
+            background-color: $orange;
+        }
+    }
+
     &--disabled {
-        
+
     }
+
     &__text {
+        font-weight: 500;
+        font-size: rem(18);
     }
 }

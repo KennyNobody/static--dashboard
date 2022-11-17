@@ -1,5 +1,53 @@
 .form {
-    @include r(1200) {
+    width: 100%;
+    display: block;
 
+    &--login {
+        display: flex;
+        max-width: rem(400);
+        min-height: rem(530);
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__title {
+        color: $dark;
+        font-weight: 700;
+        font-size: rem(30);
+        margin-bottom: rem(15);
+
+        strong {
+            color: $purple;
+        }
+    }
+
+    &__main {
+        flex-grow: 1;
+    }
+
+    &__text {
+        color: $grey;
+        font-weight: 400;
+        font-size: rem(17);
+        margin-bottom: rem(20);
+
+        & > :last-child {
+            margin-bottom: 0;
+        }
+
+        p {
+            margin-bottom: 1em;
+        }
+    }
+
+    &__field {
+        margin-bottom: rem(25);
+    }
+
+    &__toolbar {
+        display: flex;
+        align-items: center;
+        margin-bottom: rem(45);
+        justify-content: space-between;
     }
 }

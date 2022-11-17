@@ -1,0 +1,35 @@
+.layout {
+    display: flex;
+    min-height: 100vh;
+    &__header {
+
+    }
+
+    &__aside-main {
+        flex-shrink: 0;
+        width: rem(650);
+        max-width: 100%;
+        background-color: red;
+    }
+
+    &__aside {
+        flex-shrink: 0;
+        background-color: red;
+    }
+
+    &__main {
+        flex-grow: 1;
+        position: relative;
+
+        &--login {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: rem(80) rem(80) rem(80) rem(190);
+        }
+    }
+
+    &__footer {
+
+    }
+}

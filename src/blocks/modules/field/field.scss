@@ -1,0 +1,48 @@
+.field {
+    width: 100%;
+    display: block;
+    font-size: rem(15);
+
+    &__caption {
+        display: block;
+        margin-bottom: rem(10);
+    }
+
+    &__wrapper {
+
+    }
+
+    &__input {
+        width: 100%;
+        color: $grey;
+        display: block;
+        height: rem(44);
+        padding: 0 rem(16);
+        font-family: inherit;
+        border-radius: rem(8);
+        background-color: $light;
+        border: 1px solid $lilac-light;
+
+        &--accent {
+            border-color: $red;
+        }
+
+        &::placeholder {
+            color: $grey-light;
+            font-family: inherit;
+        }
+    }
+
+    &__message {
+        display: block;
+        margin-top: rem(7);
+        &--accent {
+            color: $pink;
+            padding-left: rem(17);
+            background-repeat: no-repeat;
+            background-size: rem(12) rem(12);
+            background-position: left top 0.3em;
+            background-image: url("../assets/icons/error.svg");
+        }
+    }
+}

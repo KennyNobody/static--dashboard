@@ -1,0 +1,12 @@
+.link {
+    display: block;
+    color: inherit;
+    font-weight: 500;
+    font-size: rem(15);
+    width: fit-content;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
+}

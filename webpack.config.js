@@ -49,20 +49,20 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 {
-                    from: "src/assets/images",
-                    to: "./assets/images/",
+                    from: "src/assets",
+                    to: "./assets/",
                     noErrorOnMissing: true
                 },
-                {
-                    from: "src/assets/favicons",
-                    to: "./assets/favicons/",
-                    noErrorOnMissing: true
-                },
-                {
-                    from: "src/assets/fonts",
-                    to: "./assets/fonts/",
-                    noErrorOnMissing: true
-                },
+                // {
+                //     from: "src/assets/favicons",
+                //     to: "./assets/favicons/",
+                //     noErrorOnMissing: true
+                // },
+                // {
+                //     from: "src/assets/fonts",
+                //     to: "./assets/fonts/",
+                //     noErrorOnMissing: true
+                // },
             ],
         }),
         new SpriteLoaderPlugin()

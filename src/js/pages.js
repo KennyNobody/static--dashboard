@@ -28,10 +28,26 @@ module.exports = [
         template: "./src/pages/page.html",
         filename: "page.html",
         inject: "body",
-        title: "Title child page | Dranik",
+        title: "Title child page | Dashboard",
         head,
         sectionHeader,
         sectionFooter,
+        temp
+    }),
+    new HtmlWebpackPlugin({
+        template: "./src/pages/ui.html",
+        filename: "ui.html",
+        inject: "body",
+        title: "UI-Kit | Dashboard",
+        head,
+        temp
+    }),
+    new HtmlWebpackPlugin({
+        template: "./src/pages/login.html",
+        filename: "login.html",
+        inject: "body",
+        title: "Login | Dashboard",
+        head,
         temp
     })
 ];
