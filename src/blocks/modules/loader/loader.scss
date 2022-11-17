@@ -12,6 +12,7 @@
         display: block;
         height: rem(36);
         width: rem(340);
+        overflow: hidden;
         border-radius: rem(36);
         border: rem(3) solid $lilac;
     }
