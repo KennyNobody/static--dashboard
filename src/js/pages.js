@@ -49,5 +49,13 @@ module.exports = [
         title: "Login | Dashboard",
         head,
         temp
+    }),
+    new HtmlWebpackPlugin({
+        template: "./src/pages/home.html",
+        filename: "home.html",
+        inject: "body",
+        title: "Home | Dashboard",
+        head,
+        temp
     })
 ];
