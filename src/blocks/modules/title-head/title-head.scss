@@ -1,0 +1,67 @@
+.title-head {
+    gap: rem(15);
+    display: flex;
+    align-items: center;
+
+    @at-root {
+        a#{&} {
+            color: inherit;
+            cursor: pointer;
+            transition: 0.3s;
+            text-decoration: none;
+
+            &:hover {
+                opacity: 0.7;
+            }
+
+            &:active {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__button {
+        display: flex;
+        width: rem(28);
+        flex-shrink: 0;
+        height: rem(28);
+        cursor: pointer;
+        align-items: center;
+        margin-right: rem(5);
+        justify-content: center;
+        transition: 0.3s opacity;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+    &__icon {
+        fill: $dark;
+        width: rem(10);
+        flex-shrink: 0;
+        height: rem(17);
+    }
+
+    &__logo {
+        width: auto;
+        display: block;
+        flex-shrink: 0;
+        height: rem(45);
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: rem(23);
+
+        b {
+            font-weight: 600;
+        }
+
+        span {
+            opacity: 0.6;
+            font-weight: 400;
+            font-size: rem(17);
+        }
+    }
+}

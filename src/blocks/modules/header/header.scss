@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    min-height: rem(80);
+    background-color: $light;
+    justify-content: space-between;
+    &__aside {
+        flex-shrink: 0;
+        width: rem(82);
+        border-right: 1px solid $lilac;
+    }
+    &__content {
+        min-width: 0;
+        flex-grow: 1;
+        border-bottom: 1px solid $lilac;
+    }
+}

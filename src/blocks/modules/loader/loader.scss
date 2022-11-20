@@ -14,15 +14,15 @@
         width: rem(340);
         overflow: hidden;
         border-radius: rem(36);
-        border: rem(3) solid $lilac;
+        border: rem(3) solid $lilac-dark;
     }
 
     &__progress {
         height: 100%;
         border-radius: rem(36);
-        background-color: $lilac;
         border-top: 4px solid $light;
         border-left: 6px solid $light;
+        background-color: $lilac-dark;
         border-right: 6px solid $light;
         border-bottom: 4px solid $light;
     }

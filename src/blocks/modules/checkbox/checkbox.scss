@@ -7,8 +7,8 @@
         &:checked {
             & + .checkbox {
                 &__box {
-                    border-color: $lilac;
-                    background-color: $lilac;
+                    border-color: $lilac-dark;
+                    background-color: $lilac-dark;
                     .checkbox__icon {
                         opacity: 1;
                     }

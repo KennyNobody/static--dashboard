@@ -99,3 +99,41 @@ button {
     margin-left: auto;
     margin-right: auto;
 }
+
+.scrolls {
+    scrollbar-width: thin;
+    scrollbar-color: $grey rgba(0,0,0,0);
+
+    &::-webkit-scrollbar {
+        width: rem(5);
+        margin-right: 1px;
+        scrollbar-gutter: stable;
+    }
+    &::-webkit-scrollbar-track {
+        background: none;
+    }
+    &::-webkit-scrollbar-thumb {
+        border: none;
+        border-radius: rem(10);
+        background-color: $grey;
+    }
+}
+
+.scrolls-invert {
+    scrollbar-width: thin;
+    scrollbar-color: $light rgba(0,0,0,0);
+
+    &::-webkit-scrollbar {
+        width: rem(5);
+        margin-right: 1px;
+        scrollbar-gutter: stable;
+    }
+    &::-webkit-scrollbar-track {
+        background: none;
+    }
+    &::-webkit-scrollbar-thumb {
+        border: none;
+        border-radius: rem(10);
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+}

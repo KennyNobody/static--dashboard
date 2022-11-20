@@ -2,4 +2,79 @@
     display: flex;
     width: rem(50);
     height: rem(50);
+    cursor: pointer;
+    align-items: center;
+    transition: 0.3s all;
+    border-radius: rem(10);
+    justify-content: center;
+
+    &.active {
+        outline: rem(6) solid $orange;
+    }
+
+    &--accent {
+        background-color: $orange;
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+        &:active {
+            opacity: 1;
+            background-color: $light;
+
+            .button-aside__icon {
+                fill: $orange;
+            }
+        }
+
+        .button-aside__icon {
+            fill: $light;
+            width: rem(24);
+            height: rem(24);
+        }
+    }
+
+    &--picture {
+        background-color: $light;
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+        &:active {
+            opacity: 1;
+            background-color: $orange;
+        }
+    }
+
+
+    &--clear {
+        &:hover {
+            .button-aside__icon {
+                opacity: 1;
+            }
+        }
+
+        .button-aside {
+            &__icon {
+                opacity: 0.7;
+                fill: $purple;
+                width: rem(28);
+                height: rem(28);
+                transition: 0.3s all;
+            }
+        }
+    }
+
+    &__picture {
+        width: 95%;
+        height: 95%;
+        padding: rem(2);
+        object-fit: contain;
+    }
+
+    &__icon {
+        display: block;
+    }
 }

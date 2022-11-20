@@ -1,0 +1,74 @@
+.form-search {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__picture {
+        display: block;
+        margin-bottom: rem(56);
+    }
+
+    &__wrapper {
+        position: relative;
+    }
+
+    &__input {
+        width: 100%;
+        display: block;
+        height: rem(82);
+        font-size: rem(18);
+        min-width: rem(810);
+        font-family: inherit;
+        box-sizing: border-box;
+        border-radius: rem(16);
+        text-overflow: ellipsis;
+        border: rem(2) solid $blue;
+        padding: rem(0) rem(82) rem(0) rem(40);
+    }
+
+    &__button {
+        top: 50%;
+        display: flex;
+        right: rem(18);
+        width: rem(52);
+        height: rem(52);
+        cursor: pointer;
+        position: absolute;
+        align-items: center;
+        border-radius: rem(10);
+        box-sizing: border-box;
+        justify-content: center;
+        background-color: $blue;
+        transform: translateY(-50%);
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+        &:active {
+            opacity: 1;
+            background-color: $light;
+            .form-search__icon {
+                fill: $blue;
+            }
+        }
+    }
+
+    &__icon {
+        fill: $light;
+        display: block;
+        width: rem(28);
+        height: rem(28);
+    }
+
+    &__caption {
+        width: 100%;
+        color: $grey;
+        height: auto;
+        font-size: rem(42);
+        text-align: center;
+        margin-top: rem(50);
+        margin-bottom: rem(56);
+        font-family: $font-cursive;
+    }
+}

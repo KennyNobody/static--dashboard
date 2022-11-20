@@ -1,0 +1,30 @@
+.button-outer {
+    left: 100%;
+    opacity: 0.8;
+    display: flex;
+    width: rem(18);
+    cursor: pointer;
+    height: rem(34);
+    position: absolute;
+    align-items: center;
+    background-color: $dark;
+    justify-content: center;
+    transition: 0.3s opacity;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    &--right {
+        left: 100%;
+        top: rem(26);
+        border-radius: 0 rem(8) rem(8) 0;
+    }
+
+    &__icon {
+        fill: $light;
+        width: rem(6);
+        display: block;
+        height: rem(11);
+    }
+}

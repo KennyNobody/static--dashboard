@@ -77,52 +77,227 @@
         <div class="container">
             <div class="elements" style="display: flex; flex-direction: column; gap: 20px;">
                 <div class="ui-nav">
-                    <a href="#field" class="ui-nav__link">
+                    <a class="ui-nav__link" href="#field">
                         .field
                     </a>
+                    <a class="ui-nav__link" href="#header">
+                        .header
+                    </a>
                 </div>
-                <div class="ui" id="field">
-                    <div class="ui__title">
-                        .field
-                    </div>
-                    <div class="ui__content">
-                        <div class="columns">
-                            <div class="columns__col columns__col--4">
-                                <label class="field">
+            </div>
+        </div>
+
+        <div class="ui" id="field">
+            <div class="ui__title">
+                <div class="container">
+                    .field
+                </div>
+            </div>
+            <div class="ui__content">
+                <div class="container">
+                    <div class="columns">
+                        <div class="columns__col columns__col--4">
+                            <label class="field">
                                     <span class="field__caption">
                                         Email
                                     </span>
-                                    <input type="email" class="field__input" value="alberto@profitmonkey.io"
-                                           placeholder="Enter your Email">
-                                </label>
-                            </div>
-                            <div class="columns__col columns__col--4">
-                                <label class="field">
+                                <input class="field__input" placeholder="Enter your Email" type="email"
+                                       value="alberto@profitmonkey.io">
+                            </label>
+                        </div>
+                        <div class="columns__col columns__col--4">
+                            <label class="field">
                                     <span class="field__caption">
                                         Password
                                     </span>
-                                    <input type="password" class="field__input field__input--accent" value="12345678"
-                                           placeholder="Enter your Password">
-                                    <span class="field__message field__message--accent">
+                                <input class="field__input field__input--accent" placeholder="Enter your Password"
+                                       type="password"
+                                       value="12345678">
+                                <span class="field__message field__message--accent">
                                         You entered a Wrong Password
                                     </span>
-                                </label>
-                            </div>
+                            </label>
                         </div>
                     </div>
                 </div>
-                <!--                <div class="ui" id="button">-->
-                <!--                    <h2 class="ui__title">-->
-                <!--                        .button-->
-                <!--                    </h2>-->
-                <!--                    <div class="ui__content">-->
-                <!--                        <a href="" class="button button&#45;&#45;h-44 button&#45;&#45;p-5-25 button&#45;&#45;invert-purple">-->
-                <!--                            <span class="button__text button__text&#45;&#45;18">-->
-                <!--                                Войти-->
-                <!--                            </span>-->
-                <!--                        </a>-->
-                <!--                    </div>-->
-                <!--                </div>-->
+            </div>
+        </div>
+        <div class="ui" id="header">
+            <h2 class="ui__title">
+                <div class="container">
+                    .header
+                </div>
+            </h2>
+            <div class="ui__content">
+                <header class="header">
+                    <div class="header__aside">
+                        <a class="link-logo" href="./home.html">
+                            <img src="./assets/images/logo-small.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="header__content">
+                        <div class="navbar">
+                            <div class="navbar__toolbar">
+                                <div class="title-head">
+                                    <p class="title-head__text">
+                                        <b>Welcome Home</b>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="navbar__user">
+                                <p class="navbar__name">
+                                    Hello Alberto
+                                </p>
+                                <button class="button-counter">
+                                    <svg class="button-counter__icon">
+                                        <use xlink:href="./assets/sprite/sprite.svg#icon-bell"></use>
+                                    </svg>
+                                    <span class="button-counter__counter">
+                                        7
+                                    </span>
+                                </button>
+                                <a href="./home.html" class="link-preview">
+                                    <img src="./assets/content/avatar.jpg" alt="Name Surname">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <header class="header">
+                    <div class="header__aside">
+                        <a class="link-logo" href="./home.html">
+                            <img src="./assets/images/logo-small.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="header__content">
+                        <div class="navbar">
+                            <div class="navbar__toolbar">
+                                <a href="./home.html" class="title-head">
+                                    <svg class="title-head__icon">
+                                        <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-left"></use>
+                                    </svg>
+                                    <p class="title-head__text">
+                                        <b>My profile</b>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="navbar__user">
+                                <button class="button-counter">
+                                    <svg class="button-counter__icon">
+                                        <use xlink:href="./assets/sprite/sprite.svg#icon-bell"></use>
+                                    </svg>
+                                    <span class="button-counter__counter">
+                                        7
+                                    </span>
+                                </button>
+                                <a href="./home.html" class="link-preview">
+                                    <img src="./assets/content/avatar.jpg" alt="Name Surname">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <header class="header">
+                    <div class="header__aside">
+                        <a class="link-logo" href="./home.html">
+                            <img src="./assets/images/logo-small.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="header__content">
+                        <div class="navbar">
+                            <div class="navbar__toolbar">
+                                <a href="" class="title-head">
+                                    <svg class="title-head__icon">
+                                        <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-left"></use>
+                                    </svg>
+                                    <img src="./assets/content/logo-title-1.png" alt="" class="title-head__logo">
+                                    <p class="title-head__text">
+                                        <b>SDDG | </b><span>Group</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="navbar__user">
+                                <button class="button-counter">
+                                    <svg class="button-counter__icon">
+                                        <use xlink:href="./assets/sprite/sprite.svg#icon-bell"></use>
+                                    </svg>
+                                    <span class="button-counter__counter">
+                                        7
+                                    </span>
+                                </button>
+                                <a href="./home.html" class="link-preview">
+                                    <img src="./assets/content/avatar.jpg" alt="Name Surname">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <header class="header">
+                    <div class="header__aside">
+                        <a class="link-logo" href="./home.html">
+                            <img src="./assets/images/logo-small.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="header__content">
+                        <div class="navbar">
+                            <div class="navbar__toolbar">
+                                <div class="title-head">
+                                    <p class="title-head__text">
+                                        <b>Hello V</b>incenzo
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="navbar__user">
+                                <button class="button-counter">
+                                    <svg class="button-counter__icon">
+                                        <use xlink:href="./assets/sprite/sprite.svg#icon-bell"></use>
+                                    </svg>
+                                    <span class="button-counter__counter">
+                                        7
+                                    </span>
+                                </button>
+                                <a href="./home.html" class="link-preview">
+                                    <img src="./assets/content/avatar.jpg" alt="Name Surname">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <header class="header">
+                    <div class="header__aside">
+                        <a class="link-logo" href="./home.html">
+                            <img src="./assets/images/logo-small.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="header__content">
+                        <div class="navbar">
+                            <div class="navbar__toolbar">
+                                <a href="" class="title-head">
+                                    <svg class="title-head__icon">
+                                        <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-left"></use>
+                                    </svg>
+                                    <img src="./assets/content/logo-title-1.png" alt="" class="title-head__logo">
+                                    <p class="title-head__text">
+                                        <b>Butcher's Cut | </b><span>Weekly Reports</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="navbar__user">
+                                <button class="button-counter">
+                                    <svg class="button-counter__icon">
+                                        <use xlink:href="./assets/sprite/sprite.svg#icon-bell"></use>
+                                    </svg>
+                                    <span class="button-counter__counter">
+                                        7
+                                    </span>
+                                </button>
+                                <a href="./home.html" class="link-preview">
+                                    <img src="./assets/content/avatar.jpg" alt="Name Surname">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
             </div>
         </div>
     </section>

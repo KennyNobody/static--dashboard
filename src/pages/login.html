@@ -6,80 +6,88 @@
 </head>
 <body class="body">
 <div class="layout">
-    <div class="layout__aside-main">
-        <section class="intro" style="background-image: url('./assets/images/intro-bg.jpg')">
-            <div class="intro__wrapper">
-                <div class="intro__content">
-                    <a href="" class="intro__logo">
-                        <img src="./assets/images/logo-light.svg" alt="Profit Monkey Logo">
-                    </a>
-                    <hr class="intro__line">
-                    <h1 class="intro__title">
-                        We are your Best++ <strong>Restaurant's Consultants</strong>
-                    </h1>
-                </div>
-            </div>
-        </section>
+    <div class="layout__header">
+
     </div>
-    <main class="layout__main layout__main--login">
-        <form action="POST" class="form form--login">
-            <div class="selector-lang z-index-1">
-                <button class="selector-lang__button ">
-                    <img src="./assets/icons/flag-usa.svg" alt="" class="selector-lang__flag">
-                    <span class="selector-lang__wrapper">
+    <main class="layout__main">
+        <div class="layout__aside-main">
+            <section class="intro" style="background-image: url('./assets/images/intro-bg.jpg')">
+                <div class="intro__wrapper">
+                    <div class="intro__content">
+                        <a href="" class="intro__logo">
+                            <img src="./assets/images/logo-light.svg" alt="Profit Monkey Logo">
+                        </a>
+                        <hr class="intro__line">
+                        <h1 class="intro__title">
+                            We are your Best++ <strong>Restaurant's Consultants</strong>
+                        </h1>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="layout__content layout__content--centered">
+            <section class="section section--centered">
+                <form action="POST" class="form form--login">
+                    <div class="selector-lang z-index-1">
+                        <button class="selector-lang__button ">
+                            <img src="./assets/icons/flag-usa.svg" alt="" class="selector-lang__flag">
+                            <span class="selector-lang__wrapper">
                         <img src="./assets/icons/chevron.svg" alt="#" class="selector-lang__icon">
                     </span>
-                </button>
-            </div>
-            <h2 class="form__title">
-                Welcome to <strong>Profit Monkey</strong>
-            </h2>
-            <div class="form__text">
-                <p>
-                    Next Generation Management Services
-                    for Restaurants and the Hospitality industry
-                </p>
-            </div>
-            <div class="form__main">
-                <label class="field form__field">
+                        </button>
+                    </div>
+                    <h2 class="form__title">
+                        Welcome to <strong>Profit Monkey</strong>
+                    </h2>
+                    <div class="form__text">
+                        <p>
+                            Next Generation Management Services
+                            for Restaurants and the Hospitality industry
+                        </p>
+                    </div>
+                    <div class="form__main">
+                        <label class="field form__field">
                 <span class="field__caption">
                     Email
                 </span>
-                    <input type="email" class="field__input" value="alberto@profitmonkey.io"
-                           placeholder="Enter your Email">
-                </label>
-                <label class="field form__field">
+                            <input type="email" class="field__input" value="alberto@profitmonkey.io"
+                                   placeholder="Enter your Email">
+                        </label>
+                        <label class="field form__field">
                     <span class="field__caption">
                         Password
                     </span>
-                    <input type="password" class="field__input field__input--accent" value="12345678"
-                           placeholder="Enter your Password">
-                    <span class="field__message field__message--accent">
+                            <input type="password" class="field__input field__input--accent" value="12345678"
+                                   placeholder="Enter your Password">
+                            <span class="field__message field__message--accent">
                         You entered a Wrong Password
                     </span>
-                </label>
-            </div>
-            <div class="form__toolbar">
-                <label class="checkbox">
-                    <input type="checkbox" class="checkbox__input">
-                    <span class="checkbox__box">
+                        </label>
+                    </div>
+                    <div class="form__toolbar">
+                        <label class="checkbox">
+                            <input type="checkbox" class="checkbox__input">
+                            <span class="checkbox__box">
                         <img src="./assets/icons/check.svg" alt="#" class="checkbox__icon">
                     </span>
-                    <span class="checkbox__caption">
+                            <span class="checkbox__caption">
                         Remember me
                     </span>
-                </label>
-                <a href="" class="link">
-                    Forgot Password
-                </a>
-            </div>
-            <button class="button button--orange-outline button--h-44 form__button">
+                        </label>
+                        <a href="" class="link">
+                            Forgot Password
+                        </a>
+                    </div>
+                    <button class="button button--orange-outline button--h-44 form__button">
                 <span class="button__text button__text--size-20">
                     Login
                 </span>
-            </button>
-        </form>
+                    </button>
+                </form>
+            </section>
+        </section>
     </main>
+
 </div>
 <%= htmlWebpackPlugin.options.temp %>
 </body>

@@ -33,10 +33,6 @@
   &:-ms-input-placeholder      { @content; }  
 }
 
-@function rem($size) {
-  @return $size / $root-font-size * 1rem;
-}
-
 @mixin pt($size) {
     padding-top: math.div($size, 15) * 1rem;
 }

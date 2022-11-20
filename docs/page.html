@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
+<link rel="manifest" href="./assets/favicons/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Title child page | Dashboard</title>
+<link href="./css/main.css" rel="stylesheet"></head>
+<body class="body">
+    <header class="section">
+    <div class="container">
+        Шапка
+    </div>
+</header>
+    <main class="main">
+        <section class="section">
+            <div class="container">
+                Content of child page
+            </div>
+        </section>
+    </main>
+    <footer class="section">
+    <div class="container">
+        Подвал
+    </div>
+</footer>
+    <!-- Это временная секция, здесь ссылки на все страницы. На продакшене ее не будет -->
+<section class="section">
+    <div class="container">
+        <style>
+            .temp {
+                gap: 15px;
+                display: flex;
+            }
+
+            .temp__link {
+                color: inherit;
+                font-size: 16px;
+                text-decoration: underline;
+            }
+
+            .temp__link:hover {
+                text-decoration: none;
+            }
+        </style>
+        <div class="temp">
+            <a href="./index.html" class="temp__link">Index page</a>
+            <a href="./ui.html" class="temp__link">UI-kit</a>
+            <a href="./loader.html" class="temp__link">Loader</a>
+            <a href="./login.html" class="temp__link">Login</a>
+            <a href="./home.html" class="temp__link">Home</a>
+        </div>
+    </div>
+</section>
+<script defer src="js/bundle.js"></script></body>
+</html>

@@ -2,21 +2,31 @@
 @import "modules/body/body";
 @import "modules/breadcrumbs/breadcrumbs";
 @import "modules/button/button";
+@import "modules/button-aside/button-aside";
+@import "modules/button-counter/button-counter";
+@import "modules/link-logo/link-logo";
+@import "modules/button-outer/button-outer";
 @import "modules/checkbox/checkbox";
 @import "modules/columns/columns";
 @import "modules/container/container";
 @import "modules/editor/editor";
 @import "modules/field/field";
+@import "modules/footer/footer";
 @import "modules/form/form";
+@import "modules/form-search/form-search";
+@import "modules/header/header";
 @import "modules/input/input";
 @import "modules/intro/intro";
 @import "modules/layout/layout";
 @import "modules/link/link";
+@import "modules/link-preview/link-preview";
 @import "modules/loader/loader";
 @import "modules/main/main";
+@import "modules/navbar/navbar";
 @import "modules/section/section";
 @import "modules/selector-lang/selector-lang";
 @import "modules/title/title";
+@import "modules/title-head/title-head";
 
 @include r(1200) {
     

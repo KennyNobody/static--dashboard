@@ -1,0 +1,29 @@
+.link-logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+
+    @at-root {
+        a#{&} {
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover {
+                opacity: 0.7;
+            }
+
+            &:active {
+                opacity: 1;
+                background-color: $grey-light;
+            }
+        }
+    }
+
+    img {
+        display: block;
+        max-width: rem(50);
+        max-height: rem(50);
+    }
+}

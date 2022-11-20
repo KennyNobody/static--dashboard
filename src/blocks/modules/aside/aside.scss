@@ -3,8 +3,13 @@
     height: 100%;
     display: block;
     max-width: rem(82);
+    position: relative;
 
     &__section {
+        min-width: 0;
+        padding: rem(27) rem(3) rem(27) rem(8);
+        overflow-y: scroll;
+
         &--main {
             background-color: $purple-light;
             height: 60%;
@@ -12,7 +17,25 @@
 
         &--footer {
             height: 40%;
-            background-color: $grey-light;
+            background-color: $lilac-light;
         }
+    }
+
+    &__toolbar {
+        gap: rem(12);
+        display: flex;
+        position: relative;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 rem(6);
+    }
+
+    &__line {
+        height: 1px;
+        opacity: 0.3;
+        display: block;
+        margin-top: rem(20);
+        margin-bottom: rem(20);
+        background-color: $light;
     }
 }
