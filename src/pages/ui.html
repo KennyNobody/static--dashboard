@@ -77,6 +77,9 @@
         <div class="container">
             <div class="elements" style="display: flex; flex-direction: column; gap: 20px;">
                 <div class="ui-nav">
+                    <a class="ui-nav__link" href="#button-icon">
+                        .button-icon
+                    </a>
                     <a class="ui-nav__link" href="#field">
                         .field
                     </a>
@@ -87,6 +90,88 @@
             </div>
         </div>
 
+<!--        <div class="ui" id="aside">-->
+<!--            <div class="ui__title">-->
+<!--                <div class="container">-->
+<!--                    .aside-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="ui__content">-->
+<!--                <div class="container">-->
+<!--                    <div class="columns">-->
+<!--                        <div class="columns__col">-->
+
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+        <div class="ui" id="button-icon">
+            <div class="ui__title">
+                <div class="container">
+                    .button-icon
+                </div>
+            </div>
+            <div class="ui__content">
+                <div class="container">
+                    <div class="columns">
+                        <div class="columns__col columns__col--1">
+                            <a class="button-icon" href="">
+                                <svg class="button-icon__icon">
+                                    <use xlink:href="./assets/sprite/sprite.svg#icon-dots"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="columns__col columns__col--1">
+                            <a class="button-icon" href="">
+                                <svg class="button-icon__icon">
+                                    <use xlink:href="./assets/sprite/sprite.svg#icon-mail"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="columns__col columns__col--1">
+                            <a class="button-icon" href="">
+                                <svg class="button-icon__icon">
+                                    <use xlink:href="./assets/sprite/sprite.svg#icon-pdf"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="columns__col columns__col--1">
+                            <a class="button-icon" href="">
+                                <svg class="button-icon__icon">
+                                    <use xlink:href="./assets/sprite/sprite.svg#icon-eye"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="columns">
+                        <div class="columns__col columns__col--1">
+                            <a class="button-icon" href="">
+                                <svg class="button-icon__icon">
+                                    <use xlink:href="./assets/sprite/sprite.svg#icon-change"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="columns__col columns__col--1">
+                            <a class="button-icon" href="">
+                                <svg class="button-icon__icon">
+                                    <use xlink:href="./assets/sprite/sprite.svg#icon-pen"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="columns__col columns__col--1">
+                            <a class="button-icon" href="">
+                                <svg class="button-icon__icon">
+                                    <use xlink:href="./assets/sprite/sprite.svg#icon-delete"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="ui" id="field">
             <div class="ui__title">
                 <div class="container">
@@ -106,17 +191,32 @@
                             </label>
                         </div>
                         <div class="columns__col columns__col--4">
-                            <label class="field">
+                            <label class="field field--accent">
                                     <span class="field__caption">
                                         Password
                                     </span>
-                                <input class="field__input field__input--accent" placeholder="Enter your Password"
+                                <input class="field__input" placeholder="Enter your Password"
                                        type="password"
                                        value="12345678">
-                                <span class="field__message field__message--accent">
+                                <span class="field__message">
                                         You entered a Wrong Password
                                     </span>
                             </label>
+                        </div>
+                        <div class="columns__col columns__col--4">
+                            <div class="field">
+                                <span class="field__caption">
+                                    New Password
+                                </span>
+                                <div class="field__wrapper">
+                                    <input class="field__input field__input--padding" placeholder="-" type="password">
+                                    <button class="field__button" type="button">
+                                        <svg class="field__icon">
+                                            <use xlink:href="./assets/sprite/sprite.svg#icon-show"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -132,7 +232,7 @@
                 <header class="header">
                     <div class="header__aside">
                         <a class="link-logo" href="./home.html">
-                            <img src="./assets/images/logo-small.svg" alt="">
+                            <img alt="" src="./assets/images/logo-small.svg">
                         </a>
                     </div>
                     <div class="header__content">
@@ -156,8 +256,8 @@
                                         7
                                     </span>
                                 </button>
-                                <a href="./home.html" class="link-preview">
-                                    <img src="./assets/content/avatar.jpg" alt="Name Surname">
+                                <a class="link-preview" href="./home.html">
+                                    <img alt="Name Surname" src="./assets/content/avatar.jpg">
                                 </a>
                             </div>
                         </div>
@@ -166,13 +266,13 @@
                 <header class="header">
                     <div class="header__aside">
                         <a class="link-logo" href="./home.html">
-                            <img src="./assets/images/logo-small.svg" alt="">
+                            <img alt="" src="./assets/images/logo-small.svg">
                         </a>
                     </div>
                     <div class="header__content">
                         <div class="navbar">
                             <div class="navbar__toolbar">
-                                <a href="./home.html" class="title-head">
+                                <a class="title-head" href="./home.html">
                                     <svg class="title-head__icon">
                                         <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-left"></use>
                                     </svg>
@@ -190,8 +290,8 @@
                                         7
                                     </span>
                                 </button>
-                                <a href="./home.html" class="link-preview">
-                                    <img src="./assets/content/avatar.jpg" alt="Name Surname">
+                                <a class="link-preview" href="./home.html">
+                                    <img alt="Name Surname" src="./assets/content/avatar.jpg">
                                 </a>
                             </div>
                         </div>
@@ -200,20 +300,25 @@
                 <header class="header">
                     <div class="header__aside">
                         <a class="link-logo" href="./home.html">
-                            <img src="./assets/images/logo-small.svg" alt="">
+                            <img alt="" src="./assets/images/logo-small.svg">
                         </a>
                     </div>
                     <div class="header__content">
                         <div class="navbar">
                             <div class="navbar__toolbar">
-                                <a href="" class="title-head">
+                                <a class="title-head" href="">
                                     <svg class="title-head__icon">
                                         <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-left"></use>
                                     </svg>
-                                    <img src="./assets/content/logo-title-1.png" alt="" class="title-head__logo">
+                                    <img alt="" class="title-head__logo" src="./assets/content/logo-title-1.png">
                                     <p class="title-head__text">
                                         <b>SDDG | </b><span>Group</span>
                                     </p>
+                                </a>
+                                <a class="button-icon button-icon--shadow" href="">
+                                    <svg class="button-icon__icon">
+                                        <use xlink:href="./assets/sprite/sprite.svg#icon-eye"></use>
+                                    </svg>
                                 </a>
                             </div>
                             <div class="navbar__user">
@@ -225,8 +330,8 @@
                                         7
                                     </span>
                                 </button>
-                                <a href="./home.html" class="link-preview">
-                                    <img src="./assets/content/avatar.jpg" alt="Name Surname">
+                                <a class="link-preview" href="./home.html">
+                                    <img alt="Name Surname" src="./assets/content/avatar.jpg">
                                 </a>
                             </div>
                         </div>
@@ -235,7 +340,7 @@
                 <header class="header">
                     <div class="header__aside">
                         <a class="link-logo" href="./home.html">
-                            <img src="./assets/images/logo-small.svg" alt="">
+                            <img alt="" src="./assets/images/logo-small.svg">
                         </a>
                     </div>
                     <div class="header__content">
@@ -256,8 +361,8 @@
                                         7
                                     </span>
                                 </button>
-                                <a href="./home.html" class="link-preview">
-                                    <img src="./assets/content/avatar.jpg" alt="Name Surname">
+                                <a class="link-preview" href="./home.html">
+                                    <img alt="Name Surname" src="./assets/content/avatar.jpg">
                                 </a>
                             </div>
                         </div>
@@ -266,21 +371,31 @@
                 <header class="header">
                     <div class="header__aside">
                         <a class="link-logo" href="./home.html">
-                            <img src="./assets/images/logo-small.svg" alt="">
+                            <img alt="" src="./assets/images/logo-small.svg">
                         </a>
                     </div>
                     <div class="header__content">
                         <div class="navbar">
                             <div class="navbar__toolbar">
-                                <a href="" class="title-head">
+                                <a class="title-head" href="">
                                     <svg class="title-head__icon">
                                         <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-left"></use>
                                     </svg>
-                                    <img src="./assets/content/logo-title-1.png" alt="" class="title-head__logo">
+                                    <img alt="" class="title-head__logo" src="./assets/content/logo-title-1.png">
                                     <p class="title-head__text">
                                         <b>Butcher's Cut | </b><span>Weekly Reports</span>
                                     </p>
                                 </a>
+                                <a class="button-icon button-icon--shadow" href="">
+                                    <svg class="button-icon__icon">
+                                        <use xlink:href="./assets/sprite/sprite.svg#icon-dots"></use>
+                                    </svg>
+                                </a>
+                                <div class="block-info">
+                                    <span class="block-into__text">
+                                        08-15 Jan
+                                    </span>
+                                </div>
                             </div>
                             <div class="navbar__user">
                                 <button class="button-counter">
@@ -291,8 +406,8 @@
                                         7
                                     </span>
                                 </button>
-                                <a href="./home.html" class="link-preview">
-                                    <img src="./assets/content/avatar.jpg" alt="Name Surname">
+                                <a class="link-preview" href="./home.html">
+                                    <img alt="Name Surname" src="./assets/content/avatar.jpg">
                                 </a>
                             </div>
                         </div>

@@ -1,0 +1,38 @@
+.button-icon {
+    display: flex;
+    width: rem(40);
+    height: rem(40);
+    position: relative;
+    align-items: center;
+    transition: 0.3s all;
+    border-radius: rem(8);
+    justify-content: center;
+    border: 1px solid $lilac;
+
+    &--shadow {
+        box-shadow: 0 0 rem(20) rgba(41, 72, 152, 0.1);
+    }
+
+    &:hover {
+        opacity: 0.7;
+        box-shadow: 0 0 0 rgba(41, 72, 152, 0.2);
+    }
+
+    &:active {
+        opacity: 1;
+        border-color: $grey;
+        background-color: $grey;
+
+        .button-icon__icon {
+            fill: $white;
+        }
+    }
+
+    &__icon {
+        fill: $grey;
+        display: block;
+        width: rem(22);
+        height: rem(22);
+        transition: 0.3s fill;
+    }
+}

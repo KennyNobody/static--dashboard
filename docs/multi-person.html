@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
+<link rel="manifest" href="./assets/favicons/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Person Dashboard | Dashboard</title>
+<link href="./css/main.css" rel="stylesheet"></head>
+<body class="body">
+<div class="layout">
+    <header class="header">
+        <div class="header__aside">
+            <a class="link-logo" href="./home.html">
+                <img src="./assets/images/logo-small.svg" alt="">
+            </a>
+        </div>
+        <div class="header__content">
+            <div class="navbar">
+                <div class="navbar__toolbar">
+                    <div class="title-head">
+                        <p class="title-head__text">
+                            <b>Hello V</b>incenzo
+                        </p>
+                    </div>
+                </div>
+                <div class="navbar__user">
+                    <button class="button-counter">
+                        <svg class="button-counter__icon">
+                            <use xlink:href="./assets/sprite/sprite.svg#icon-bell"></use>
+                        </svg>
+                        <span class="button-counter__counter">
+                            7
+                        </span>
+                    </button>
+                    <a href="./home.html" class="link-preview">
+                        <img src="./assets/content/avatar.jpg" alt="Name Surname">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="layout__main">
+        <div class="layout__aside">
+            <aside class="aside">
+    <button class="button-outer button-outer--right">
+        <svg class="button-outer__icon">
+            <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-right"></use>
+        </svg>
+    </button>
+    <div class="aside__section aside__section--main scrolls-invert">
+        <div class="aside__toolbar">
+            <a class="button-aside button-aside--accent" href="#">
+                <svg class="button-aside__icon">
+                    <use xlink:href="./assets/sprite/sprite.svg#icon-search"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="aside__line"></div>
+        <div class="aside__toolbar">
+            <a class="button-aside button-aside--picture active" href="#">
+                <img alt="#" class="button-aside__picture" src="./assets/content/logo-small-1.png">
+            </a>
+            <a class="button-aside button-aside--picture" href="#">
+                <img alt="#" class="button-aside__picture" src="./assets/content/logo-small-2.png">
+            </a>
+            <a class="button-aside button-aside--picture" href="#">
+                <img alt="#" class="button-aside__picture" src="./assets/content/logo-small-3.png">
+            </a>
+            <a class="button-aside button-aside--picture" href="#">
+                <img alt="#" class="button-aside__picture" src="./assets/content/logo-small-4.png">
+            </a>
+        </div>
+    </div>
+    <div class="aside__section aside__section--footer scrolls">
+        <div class="aside__toolbar">
+            <a class="button-aside button-aside--clear" href="#">
+                <svg class="button-aside__icon">
+                    <use xlink:href="./assets/sprite/sprite.svg#icon-shedule"></use>
+                </svg>
+            </a>
+            <a class="button-aside button-aside--clear" href="#">
+                <svg class="button-aside__icon">
+                    <use xlink:href="./assets/sprite/sprite.svg#icon-chart"></use>
+                </svg>
+            </a>
+            <a class="button-aside button-aside--clear" href="#">
+                <svg class="button-aside__icon">
+                    <use xlink:href="./assets/sprite/sprite.svg#icon-setting"></use>
+                </svg>
+                <svg class="button-aside__icon-accent">
+                    <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-accent"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+</aside>
+        </div>
+        <main class="layout__content layout__content--regular">
+            <section class="section section--full section--centered">
+                <div class="form-search">
+                    <img alt="" class="form-search__picture" src="./assets/images/picture-mascot.svg">
+                    <div class="form-search__wrapper">
+                        <input class="form-search__input" type="text">
+                        <button class="form-search__button">
+                            <svg class="form-search__icon">
+                                <use xlink:href="./assets/sprite/sprite.svg#icon-search"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <p class="form-search__caption">
+                        Work hard and make it happen
+                    </p>
+                </div>
+            </section>
+            <footer class="footer">
+                <span>
+                    v 2022.09.25
+                </span>
+                <span>
+                    Profit Monkey | Copyright 2022
+                </span>
+            </footer>
+        </main>
+    </div>
+</div>
+<!-- Это временная секция, здесь ссылки на все страницы. На продакшене ее не будет -->
+<section class="section">
+    <div class="container">
+        <style>
+            .temp {
+                gap: 15px;
+                display: flex;
+            }
+
+            .temp__link {
+                color: inherit;
+                font-size: 16px;
+                text-decoration: underline;
+            }
+
+            .temp__link:hover {
+                text-decoration: none;
+            }
+        </style>
+        <div class="temp">
+            <a href="./index.html" class="temp__link">Index page</a>
+            <a href="./ui.html" class="temp__link">UI-kit</a>
+            <a href="./loader.html" class="temp__link">Loader</a>
+            <a href="./login.html" class="temp__link">Login</a>
+            <a href="./home.html" class="temp__link">Home</a>
+        </div>
+    </div>
+</section>
+<script defer src="js/bundle.js"></script></body>
+</html>

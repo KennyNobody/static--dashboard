@@ -1,0 +1,9 @@
+.grid {
+    gap: rem(28);
+    display: grid;
+
+    &__cell {
+        min-height: rem(20);
+        background-color: $red;
+    }
+}

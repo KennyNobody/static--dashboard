@@ -14,7 +14,6 @@
         color: $dark;
         font-weight: 700;
         font-size: rem(30);
-        margin-bottom: rem(15);
 
         strong {
             color: $purple;
@@ -40,14 +39,18 @@
         }
     }
 
-    &__field {
-        margin-bottom: rem(25);
-    }
+    //&__field {
+    //    margin-bottom: rem(25);
+    //}
 
     &__toolbar {
         display: flex;
         align-items: center;
-        margin-bottom: rem(45);
+        //margin-bottom: rem(45);
         justify-content: space-between;
+
+        &--right {
+            justify-content: flex-end;
+        }
     }
 }

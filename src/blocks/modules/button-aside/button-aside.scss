@@ -3,6 +3,7 @@
     width: rem(50);
     height: rem(50);
     cursor: pointer;
+    position: relative;
     align-items: center;
     transition: 0.3s all;
     border-radius: rem(10);
@@ -21,22 +22,26 @@
 
         &:active {
             opacity: 1;
-            background-color: $light;
+            background-color: $white;
 
-            .button-aside__icon {
+            .button-aside__icon, .button-aside__icon-accent {
                 fill: $orange;
             }
         }
 
         .button-aside__icon {
-            fill: $light;
+            fill: $white;
             width: rem(24);
             height: rem(24);
+        }
+
+        .button-aside__icon {
+            fill: $white;
         }
     }
 
     &--picture {
-        background-color: $light;
+        background-color: $white;
 
         &:hover {
             opacity: 0.7;
@@ -51,7 +56,7 @@
 
     &--clear {
         &:hover {
-            .button-aside__icon {
+            .button-aside__icon, .button-aside__icon-accent {
                 opacity: 1;
             }
         }
@@ -62,6 +67,12 @@
                 fill: $purple;
                 width: rem(28);
                 height: rem(28);
+                transition: 0.3s all;
+            }
+
+            &__icon-accent {
+                opacity: 0.7;
+                fill: $purple;
                 transition: 0.3s all;
             }
         }
@@ -76,5 +87,15 @@
 
     &__icon {
         display: block;
+    }
+
+    &__icon-accent {
+        top: 50%;
+        left: 100%;
+        width: rem(6);
+        display: block;
+        height: rem(10);
+        position: absolute;
+        transform: translateY(-50%);
     }
 }

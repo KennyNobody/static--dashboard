@@ -1,21 +1,22 @@
 .button {
     display: flex;
     cursor: pointer;
+    min-height: rem(44);
     align-items: center;
     border-radius: rem(8);
     justify-content: center;
-
-    &--h-44 {
-        min-height: rem(44);
-    }
 
     &--orange-outline {
         color: $orange;
         border: 1px solid $orange;
 
         &:hover {
-            color: $light;
+            color: $white;
             background-color: $orange;
+        }
+
+        &:active {
+            opacity: 0.7;
         }
     }
 
@@ -23,8 +24,16 @@
 
     }
 
+    &--small {
+        min-width: rem(120);
+    }
+
+    &--medium {
+        min-width: rem(210);
+    }
+
     &__text {
         font-weight: 500;
-        font-size: rem(18);
+        font-size: rem(17);
     }
 }

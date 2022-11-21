@@ -16,7 +16,7 @@
     }
 
     &__content {
-        color: $light;
+        color: $white;
         min-height: rem(550);
     }
 
@@ -42,7 +42,7 @@
         border: none;
         width: rem(96);
         margin-bottom: rem(60);
-        border-bottom: rem(4) solid $light;
+        border-bottom: rem(4) solid $white;
     }
 
     &__title {

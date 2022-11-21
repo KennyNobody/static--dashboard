@@ -121,7 +121,7 @@ button {
 
 .scrolls-invert {
     scrollbar-width: thin;
-    scrollbar-color: $light rgba(0,0,0,0);
+    scrollbar-color: $white rgba(0,0,0,0);
 
     &::-webkit-scrollbar {
         width: rem(5);

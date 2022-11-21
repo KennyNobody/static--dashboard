@@ -3,13 +3,34 @@
     display: block;
     font-size: rem(15);
 
+    &--accent {
+        .field {
+            &__input {
+                border-color: $red;
+            }
+
+            &__message {
+                color: $pink;
+                padding-left: rem(17);
+                background-repeat: no-repeat;
+                background-size: rem(12) rem(12);
+                background-position: left top 0.3em;
+                background-image: url("../assets/icons/error.svg");
+            }
+        }
+    }
+
     &__caption {
         display: block;
         margin-bottom: rem(10);
+
+        b {
+            color: $red;
+        }
     }
 
     &__wrapper {
-
+        position: relative;
     }
 
     &__input {
@@ -20,11 +41,11 @@
         padding: 0 rem(16);
         font-family: inherit;
         border-radius: rem(8);
-        background-color: $light;
+        background-color: $white;
         border: 1px solid $lilac;
 
-        &--accent {
-            border-color: $red;
+        &--padding {
+            padding-right: rem(60);
         }
 
         &::placeholder {
@@ -33,16 +54,36 @@
         }
     }
 
+    &__button {
+        top: 0;
+        right: 0;
+        height: 100%;
+        display: flex;
+        width: rem(44);
+        cursor: pointer;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s opacity;
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+        &:active {
+            opacity: 1;
+        }
+    }
+
+    &__icon {
+        fill: $dark;
+        display: block;
+        width: rem(20);
+        height: rem(20);
+    }
+
     &__message {
         display: block;
         margin-top: rem(7);
-        &--accent {
-            color: $pink;
-            padding-left: rem(17);
-            background-repeat: no-repeat;
-            background-size: rem(12) rem(12);
-            background-position: left top 0.3em;
-            background-image: url("../assets/icons/error.svg");
-        }
     }
 }

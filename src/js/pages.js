@@ -2,9 +2,10 @@ const fs = require("fs");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 // Includes
+const aside = fs.readFileSync("src/includes/aside.html");
 const head = fs.readFileSync("src/includes/head.html");
 const sectionHeader = fs.readFileSync("src/includes/section-header.html");
-const sectionFooter = fs.readFileSync("src/includes/section-footer.html");
+const footer = fs.readFileSync("src/includes/footer.html");
 const temp = fs.readFileSync("src/includes/temp.html");
 
 // Pages
@@ -22,16 +23,6 @@ module.exports = [
         inject: "body",
         title: "Loader | Dashboard",
         head,
-        temp
-    }),
-    new HtmlWebpackPlugin({
-        template: "./src/pages/page.html",
-        filename: "page.html",
-        inject: "body",
-        title: "Title child page | Dashboard",
-        head,
-        sectionHeader,
-        sectionFooter,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -55,7 +46,9 @@ module.exports = [
         filename: "home.html",
         inject: "body",
         title: "Home | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -63,7 +56,9 @@ module.exports = [
         filename: "profile.html",
         inject: "body",
         title: "Profile | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -71,7 +66,9 @@ module.exports = [
         filename: "profile.html",
         inject: "body",
         title: "Profile | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -79,7 +76,9 @@ module.exports = [
         filename: "profile-filled.html",
         inject: "body",
         title: "Profile | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -87,7 +86,9 @@ module.exports = [
         filename: "multi-group.html",
         inject: "body",
         title: "Group Dashboard | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -95,7 +96,9 @@ module.exports = [
         filename: "multi-person.html",
         inject: "body",
         title: "Person Dashboard | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -103,7 +106,9 @@ module.exports = [
         filename: "restaurant.html",
         inject: "body",
         title: "Restaurant | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -111,7 +116,9 @@ module.exports = [
         filename: "restaurant-main.html",
         inject: "body",
         title: "Main info | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -119,7 +126,9 @@ module.exports = [
         filename: "restaurant-hours.html",
         inject: "body",
         title: "Business hours | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -127,7 +136,9 @@ module.exports = [
         filename: "restaurant-co-owners.html",
         inject: "body",
         title: "Co-owners | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -135,7 +146,9 @@ module.exports = [
         filename: "restaurant-managers.html",
         inject: "body",
         title: "Managers | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -143,7 +156,9 @@ module.exports = [
         filename: "report.html",
         inject: "body",
         title: "Report | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -151,7 +166,9 @@ module.exports = [
         filename: "report-edit.html",
         inject: "body",
         title: "Report edit | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -159,7 +176,9 @@ module.exports = [
         filename: "report-sales.html",
         inject: "body",
         title: "Sales | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -167,7 +186,9 @@ module.exports = [
         filename: "report-sales-edit.html",
         inject: "body",
         title: "Sales edit | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -175,7 +196,9 @@ module.exports = [
         filename: "report-services.html",
         inject: "body",
         title: "Services | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -183,7 +206,9 @@ module.exports = [
         filename: "report-services-edit.html",
         inject: "body",
         title: "Services edit | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -191,7 +216,9 @@ module.exports = [
         filename: "report-comps.html",
         inject: "body",
         title: "Comps | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -199,7 +226,9 @@ module.exports = [
         filename: "report-comps-edit.html",
         inject: "body",
         title: "Comps edit | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -207,7 +236,9 @@ module.exports = [
         filename: "report-notes.html",
         inject: "body",
         title: "Notes | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -215,7 +246,9 @@ module.exports = [
         filename: "report-notes-edit.html",
         inject: "body",
         title: "Notes edit | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -223,7 +256,9 @@ module.exports = [
         filename: "report-reviews.html",
         inject: "body",
         title: "Reviews | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -231,7 +266,9 @@ module.exports = [
         filename: "report-reviews-edit.html",
         inject: "body",
         title: "Reviews edit | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
     new HtmlWebpackPlugin({
@@ -239,7 +276,9 @@ module.exports = [
         filename: "report-table.html",
         inject: "body",
         title: "Table | Dashboard",
+        aside,
         head,
+        footer,
         temp
     }),
 ];

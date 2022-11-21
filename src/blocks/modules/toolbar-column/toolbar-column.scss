@@ -1,0 +1,22 @@
+.toolbar-column {
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+
+    &--small {
+        gap: rem(15);
+        max-width: rem(144);
+    }
+
+    &--regular {
+        gap: rem(15);
+        max-width: rem(158);
+    }
+
+    &--large {
+        gap: rem(25);
+        max-width: rem(190);
+    }
+}

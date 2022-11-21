@@ -9,4 +9,14 @@
         flex-direction: column;
         justify-content: center;
     }
+
+    &--align {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &--regular {
+        padding: rem(25) rem(50);
+    }
 }

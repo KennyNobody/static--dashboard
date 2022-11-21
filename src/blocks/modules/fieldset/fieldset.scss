@@ -1,0 +1,24 @@
+.fieldset {
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__title {
+        display: block;
+        font-weight: 500;
+        font-size: rem(23);
+        margin-bottom: rem(25);
+    }
+
+    &__text {
+        color: $grey;
+        font-weight: 400;
+        font-size: rem(15);
+
+        strong {
+            color: $dark;
+        }
+    }
+}

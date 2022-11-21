@@ -9,6 +9,23 @@
     }
     &__col {
         position: relative;
+
+        &.border-top {
+            border-top: 1px solid $lilac-light;
+        }
+
+        &.border-right {
+            border-right: 1px solid $lilac-light;
+        }
+
+        &.border-left {
+            border-left: 1px solid $lilac-light;
+        }
+
+        &.border-bottom {
+            border-bottom: 1px solid $lilac-light;
+        }
+
         &--1 {
             grid-column: span 1;
         }

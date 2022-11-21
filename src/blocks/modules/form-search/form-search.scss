@@ -47,7 +47,7 @@
 
         &:active {
             opacity: 1;
-            background-color: $light;
+            background-color: $white;
             .form-search__icon {
                 fill: $blue;
             }
@@ -55,7 +55,7 @@
     }
 
     &__icon {
-        fill: $light;
+        fill: $white;
         display: block;
         width: rem(28);
         height: rem(28);
