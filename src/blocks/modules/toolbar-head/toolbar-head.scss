@@ -1,0 +1,13 @@
+.toolbar-head {
+    width: 100%;
+    display: flex;
+    gap: rem(30);
+    align-items: center;
+    justify-content: space-between;
+
+    &__section {
+        gap: rem(12);
+        display: flex;
+        align-items: center;
+    }
+}

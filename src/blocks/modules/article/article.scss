@@ -1,0 +1,27 @@
+.article {
+    width: 100%;
+    display: flex;
+    border-radius: rem(10);
+    flex-direction: column;
+    border: 1px solid $lilac;
+    background-color: $light;
+    padding: rem(20) rem(30);
+    justify-content: space-between;
+
+    &__header {
+        display: flex;
+        margin-bottom: rem(20);
+        justify-content: space-between;
+    }
+
+    &__main {
+        flex-grow: 1;
+    }
+
+    &__footer {
+        gap: rem(20);
+        display: flex;
+        margin-top: rem(30);
+        justify-content: flex-end;
+    }
+}

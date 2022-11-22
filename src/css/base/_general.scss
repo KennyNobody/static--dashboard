@@ -137,3 +137,8 @@ button {
         background-color: rgba(255, 255, 255, 0.8);
     }
 }
+.separator {
+    width: 0;
+    height: 100%;
+    flex-grow: 1;
+}

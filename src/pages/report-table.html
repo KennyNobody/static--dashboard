@@ -57,19 +57,90 @@
         </div>
         <main class="layout__content layout__content--regular">
             <section class="section section--full section--centered">
-                <div class="form-search">
-                    <img alt="" class="form-search__picture" src="./assets/images/picture-mascot.svg">
-                    <div class="form-search__wrapper">
-                        <input class="form-search__input" type="text">
-                        <button class="form-search__button">
-                            <svg class="form-search__icon">
-                                <use xlink:href="./assets/sprite/sprite.svg#icon-search"></use>
+                <div class="toolbar-head">
+                    <div class="calendar">
+                        <label class="calendar__item">
+                            <input checked class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper">
+                                <span class="calendar__text"><b>6</b>Mon</span>
+                            </span>
+                        </label>
+                        <label class="calendar__item">
+                            <input class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper"><span class="calendar__text"><b>7</b>Tue</span></span>
+                        </label>
+                        <label class="calendar__item">
+                            <input class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper">
+                                <span class="calendar__text">
+                                    <b>8</b>Wed
+                                </span>
+                            </span>
+                        </label>
+                        <label class="calendar__item">
+                            <input class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper">
+                                <span class="calendar__text">
+                                    <b>9</b>Thu
+                                </span>
+                            </span>
+                        </label>
+                        <label class="calendar__item">
+                            <input class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper">
+                                <span class="calendar__text">
+                                    <b>10</b>Fri
+                                </span>
+                            </span>
+                        </label>
+                        <label class="calendar__item">
+                            <input class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper">
+                                <span class="calendar__text">
+                                    <b>11</b>Sat
+                                </span>
+                            </span>
+                        </label>
+                        <label class="calendar__item">
+                            <input class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper">
+                                <span class="calendar__text">
+                                    <b>12</b>Sun
+                                </span>
+                            </span>
+                        </label>
+                    </div>
+                    <div class="nav-slider">
+                        <button class="nav-slider__button nav-slider__button--prev">
+                            <svg class="nav-slider__icon">
+                                <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-left"></use>
+                            </svg>
+                        </button>
+                        <button class="nav-slider__button nav-slider__button--next" disabled>
+                            <svg class="nav-slider__icon">
+                                <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-right"></use>
                             </svg>
                         </button>
                     </div>
-                    <p class="form-search__caption">
-                        Work hard and make it happen
-                    </p>
+                    <div class="separator"></div>
+                    <div class="toggler">
+                        <label class="toggler__item">
+                            <input type="radio" class="toggler__input" name="toggler-date" checked>
+                            <span class="toggler__block">Summary</span>
+                        </label>
+                        <label class="toggler__item">
+                            <input type="radio" class="toggler__input" name="toggler-date">
+                            <span class="toggler__block">Daily</span>
+                        </label>
+                    </div>
+                    <div class="block-status">
+                        <span class="block-status__text">Publish</span>
+                    </div>
+                    <div class="tag tag--yellow">
+                        <span class="tag__text">
+                            In Review
+                        </span>
+                    </div>
                 </div>
             </section>
             <%= htmlWebpackPlugin.options.footer %>

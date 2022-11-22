@@ -383,6 +383,27 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/assets/sprite/icon-write.svg":
+/*!******************************************!*\
+  !*** ./src/assets/sprite/icon-write.svg ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+      id: "icon-write-usage",
+      viewBox: "0 0 13 14",
+      url: "/assets/sprite/" + "sprite.svg#icon-write-usage",
+      toString: function () {
+        return this.url;
+      }
+    });
+
+/***/ }),
+
 /***/ "./src/js/sprite.js":
 /*!**************************!*\
   !*** ./src/js/sprite.js ***!
@@ -410,6 +431,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_sprite_icon_shedule_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/sprite/icon-shedule.svg */ "./src/assets/sprite/icon-shedule.svg");
 /* harmony import */ var _assets_sprite_icon_show_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/sprite/icon-show.svg */ "./src/assets/sprite/icon-show.svg");
 /* harmony import */ var _assets_sprite_icon_delete_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/sprite/icon-delete.svg */ "./src/assets/sprite/icon-delete.svg");
+/* harmony import */ var _assets_sprite_icon_write_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/sprite/icon-write.svg */ "./src/assets/sprite/icon-write.svg");
+
 
 
 
@@ -445,7 +468,8 @@ __webpack_require__.r(__webpack_exports__);
     setting: _assets_sprite_icon_setting_svg__WEBPACK_IMPORTED_MODULE_13__["default"],
     shedule: _assets_sprite_icon_shedule_svg__WEBPACK_IMPORTED_MODULE_14__["default"],
     show: _assets_sprite_icon_show_svg__WEBPACK_IMPORTED_MODULE_15__["default"],
-    trash: _assets_sprite_icon_delete_svg__WEBPACK_IMPORTED_MODULE_16__["default"]
+    trash: _assets_sprite_icon_delete_svg__WEBPACK_IMPORTED_MODULE_16__["default"],
+    write: _assets_sprite_icon_write_svg__WEBPACK_IMPORTED_MODULE_17__["default"]
 });
 
 

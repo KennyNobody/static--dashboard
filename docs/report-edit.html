@@ -20,17 +20,17 @@
     <header class="header">
         <div class="header__aside">
             <a class="link-logo" href="./home.html">
-                <img src="./assets/images/logo-small.svg" alt="">
+                <img alt="" src="./assets/images/logo-small.svg">
             </a>
         </div>
         <div class="header__content">
             <div class="navbar">
                 <div class="navbar__toolbar">
-                    <a href="" class="title-head">
+                    <a class="title-head" href="">
                         <svg class="title-head__icon">
                             <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-left"></use>
                         </svg>
-                        <img src="./assets/content/logo-title-1.png" alt="" class="title-head__logo">
+                        <img alt="" class="title-head__logo" src="./assets/content/logo-title-1.png">
                         <p class="title-head__text">
                             <b>Butcher's Cut | </b><span>Weekly Reports</span>
                         </p>
@@ -45,8 +45,8 @@
                                         7
                                     </span>
                     </button>
-                    <a href="./home.html" class="link-preview">
-                        <img src="./assets/content/avatar.jpg" alt="Name Surname">
+                    <a class="link-preview" href="./home.html">
+                        <img alt="Name Surname" src="./assets/content/avatar.jpg">
                     </a>
                 </div>
             </div>
@@ -110,29 +110,230 @@
         </div>
         <main class="layout__content layout__content--regular">
             <section class="section section--full section--centered">
-                <div class="form-search">
-                    <img alt="" class="form-search__picture" src="./assets/images/picture-mascot.svg">
-                    <div class="form-search__wrapper">
-                        <input class="form-search__input" type="text">
-                        <button class="form-search__button">
-                            <svg class="form-search__icon">
-                                <use xlink:href="./assets/sprite/sprite.svg#icon-search"></use>
+                <div class="toolbar-head mb-25">
+                    <div class="calendar">
+                        <label class="calendar__item">
+                            <input checked class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper">
+                                <span class="calendar__text"><b>6</b>Mon</span>
+                            </span>
+                        </label>
+                        <label class="calendar__item">
+                            <input class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper"><span class="calendar__text"><b>7</b>Tue</span></span>
+                        </label>
+                        <label class="calendar__item">
+                            <input class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper">
+                                <span class="calendar__text">
+                                    <b>8</b>Wed
+                                </span>
+                            </span>
+                        </label>
+                        <label class="calendar__item">
+                            <input class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper">
+                                <span class="calendar__text">
+                                    <b>9</b>Thu
+                                </span>
+                            </span>
+                        </label>
+                        <label class="calendar__item">
+                            <input class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper">
+                                <span class="calendar__text">
+                                    <b>10</b>Fri
+                                </span>
+                            </span>
+                        </label>
+                        <label class="calendar__item">
+                            <input class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper">
+                                <span class="calendar__text">
+                                    <b>11</b>Sat
+                                </span>
+                            </span>
+                        </label>
+                        <label class="calendar__item">
+                            <input class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper">
+                                <span class="calendar__text">
+                                    <b>12</b>Sun
+                                </span>
+                            </span>
+                        </label>
+                    </div>
+                    <div class="nav-slider">
+                        <button class="nav-slider__button nav-slider__button--prev">
+                            <svg class="nav-slider__icon">
+                                <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-left"></use>
+                            </svg>
+                        </button>
+                        <button class="nav-slider__button nav-slider__button--next" disabled>
+                            <svg class="nav-slider__icon">
+                                <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-right"></use>
                             </svg>
                         </button>
                     </div>
-                    <p class="form-search__caption">
-                        Work hard and make it happen
-                    </p>
+                    <div class="separator"></div>
+                    <div class="toggler">
+                        <label class="toggler__item">
+                            <input checked class="toggler__input" name="toggler-date" type="radio">
+                            <span class="toggler__block">Summary</span>
+                        </label>
+                        <label class="toggler__item">
+                            <input class="toggler__input" name="toggler-date" type="radio">
+                            <span class="toggler__block">Daily</span>
+                        </label>
+                    </div>
+                    <div class="toolbar-head__section">
+                        <a class="button-icon button-icon--shadow" href="">
+                            <svg class="button-icon__icon">
+                                <use xlink:href="./assets/sprite/sprite.svg#icon-mail"></use>
+                            </svg>
+                        </a>
+                        <a class="button-icon button-icon--shadow" href="">
+                            <svg class="button-icon__icon">
+                                <use xlink:href="./assets/sprite/sprite.svg#icon-pdf"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="tag tag--green">
+                        <span class="tag__text">
+                            Published
+                        </span>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="columns__col columns__col--7">
+
+                    </div>
+                    <div class="columns__col columns__col--5">
+                        <form class="article">
+                            <div class="article__header">
+                                <h2 class="title">
+                                    Finance
+                                </h2>
+                                <button class="button-edit button-edit--shadow button-edit--light">
+                                    <svg class="button-edit__icon">
+                                        <use xlink:href="./assets/sprite/sprite.svg#icon-write"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="article__main">
+                                <h3 class="title title--small mb-20">
+                                    Bank Info
+                                </h3>
+                                <div class="columns columns--small mb-55">
+                                    <div class="columns__col columns__col--6">
+                                        <label class="field">
+                                            <span class="field__caption">
+                                                Bank Balance
+                                            </span>
+                                            <input class="field__input" type="text" value="$94.471">
+                                        </label>
+                                    </div>
+                                    <div class="columns__col columns__col--6">
+                                        <label class="field">
+                                            <span class="field__caption">
+                                                Checks In Transit
+                                            </span>
+                                            <input class="field__input" type="text" value="$10,230.85">
+                                        </label>
+                                    </div>
+                                    <div class="columns__col columns__col--6">
+                                        <label class="field">
+                                            <span class="field__caption">
+                                                Open Bill Balance
+                                            </span>
+                                            <input class="field__input" type="text" value="$2,104.21">
+                                        </label>
+                                    </div>
+                                    <div class="columns__col columns__col--6">
+                                        <label class="field">
+                                            <span class="field__caption">
+                                                Actual Balance
+                                            </span>
+                                            <span class="field__text">
+                                                $140,610.00
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <h3 class="title title--small mb-20">
+                                    Profit & Loss
+                                </h3>
+                                <div class="columns columns--small">
+                                    <div class="columns__col columns__col--6">
+                                        <label class="field">
+                                            <span class="field__caption">
+                                                BOH Liability
+                                            </span>
+                                            <span class="field__text">
+                                                $140,610.00
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="columns__col columns__col--6">
+                                        <label class="field">
+                                            <span class="field__caption">
+                                                FOH Liability
+                                            </span>
+                                            <span class="field__text">
+                                                $140,610.00
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="columns__col columns__col--6">
+                                        <label class="field">
+                                            <span class="field__caption">
+                                                Food Cost
+                                            </span>
+                                            <input class="field__input" type="text" value="$140,610.00">
+                                        </label>
+                                    </div>
+                                    <div class="columns__col columns__col--6">
+                                        <label class="field">
+                                            <span class="field__caption">
+                                                Beverage Cost
+                                            </span>
+                                            <input class="field__input" type="text" value="$2,104.21">
+                                        </label>
+                                    </div>
+                                    <div class="columns__col columns__col--6">
+                                        <label class="field">
+                                            <span class="field__caption">
+                                                Food Sales
+                                            </span>
+                                            <input class="field__input" type="text" value="$94.471">
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="article__footer">
+                                <button class="button button--orange-outline button--small">
+                                    <span class="button__text">
+                                        Cancel
+                                    </span>
+                                </button>
+                                <button class="button button--orange button--small">
+                                    <span class="button__text">
+                                        Save
+                                    </span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </section>
             <footer class="footer">
-                <span>
-                    v 2022.09.25
-                </span>
-                <span>
-                    Profit Monkey | Copyright 2022
-                </span>
-            </footer>
+    <span>
+        v 2022.09.25
+    </span>
+    <span>
+        <a href="">Profit Monkey</a> | Copyright 2022
+    </span>
+</footer>
         </main>
     </div>
 </div>

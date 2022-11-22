@@ -35,10 +35,11 @@
 
     &__input {
         width: 100%;
-        color: $grey;
+        color: $dark;
         display: block;
         height: rem(44);
         padding: 0 rem(16);
+        font-size: rem(15);
         font-family: inherit;
         border-radius: rem(8);
         background-color: $white;
@@ -52,6 +53,13 @@
             color: $grey-light;
             font-family: inherit;
         }
+    }
+
+    &__text {
+        width: 100%;
+        color: $dark;
+        display: block;
+        font-size: rem(15);
     }
 
     &__button {

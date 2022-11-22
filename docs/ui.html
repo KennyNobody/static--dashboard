@@ -88,8 +88,14 @@
         <div class="container">
             <div class="elements" style="display: flex; flex-direction: column; gap: 20px;">
                 <div class="ui-nav">
+                    <a class="ui-nav__link" href="#article">
+                        .article
+                    </a>
                     <a class="ui-nav__link" href="#button-icon">
                         .button-icon
+                    </a>
+                    <a class="ui-nav__link" href="#calendar">
+                        .calendar
                     </a>
                     <a class="ui-nav__link" href="#field">
                         .field
@@ -97,27 +103,76 @@
                     <a class="ui-nav__link" href="#header">
                         .header
                     </a>
+                    <a class="ui-nav__link" href="#tag">
+                        .tag
+                    </a>
                 </div>
             </div>
         </div>
 
-<!--        <div class="ui" id="aside">-->
-<!--            <div class="ui__title">-->
-<!--                <div class="container">-->
-<!--                    .aside-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="ui__content">-->
-<!--                <div class="container">-->
-<!--                    <div class="columns">-->
-<!--                        <div class="columns__col">-->
+        <!--        <div class="ui" id="aside">-->
+        <!--            <div class="ui__title">-->
+        <!--                <div class="container">-->
+        <!--                    .aside-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--            <div class="ui__content">-->
+        <!--                <div class="container">-->
+        <!--                    <div class="columns">-->
+        <!--                        <div class="columns__col">-->
 
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
 
+        <div class="ui" id="article">
+            <div class="ui__title">
+                <div class="container">
+                    .article
+                </div>
+            </div>
+            <div class="ui__content">
+                <div class="container">
+                    <div class="columns">
+                        <div class="columns__col columns__col--4">
+                            <div class="article">
+                                <div class="article__header">
+                                    .article__header
+                                </div>
+                                <div class="article__main">
+                                    .article__main
+                                </div>
+                                <div class="article__footer">
+                                    .article__footer
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ui" id="button-edit">
+            <div class="ui__title">
+                <div class="container">
+                    .button-edit
+                </div>
+            </div>
+            <div class="ui__content">
+                <div class="container">
+                    <div class="columns">
+                        <div class="columns__col columns__col--1">
+                            <button class="button-edit button-edit--light">
+                                <svg class="button-edit__icon">
+                                    <use xlink:href="./assets/sprite/sprite.svg#icon-write"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="ui" id="button-icon">
             <div class="ui__title">
                 <div class="container">
@@ -183,6 +238,69 @@
                 </div>
             </div>
         </div>
+        <div class="ui" id="calendar">
+            <div class="ui__title">
+                <div class="container">
+                    .calendar
+                </div>
+            </div>
+            <div class="ui__content">
+                <div class="container">
+                    <div class="calendar">
+                        <label class="calendar__item">
+                            <input checked class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper">
+                                <span class="calendar__text"><b>6</b>Mon</span>
+                            </span>
+                        </label>
+                        <label class="calendar__item">
+                            <input class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper"><span class="calendar__text"><b>7</b>Tue</span></span>
+                        </label>
+                        <label class="calendar__item">
+                            <input class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper">
+                                <span class="calendar__text">
+                                    <b>8</b>Wed
+                                </span>
+                            </span>
+                        </label>
+                        <label class="calendar__item">
+                            <input class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper">
+                                <span class="calendar__text">
+                                    <b>9</b>Thu
+                                </span>
+                            </span>
+                        </label>
+                        <label class="calendar__item">
+                            <input class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper">
+                                <span class="calendar__text">
+                                    <b>10</b>Fri
+                                </span>
+                            </span>
+                        </label>
+                        <label class="calendar__item">
+                            <input class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper">
+                                <span class="calendar__text">
+                                    <b>11</b>Sat
+                                </span>
+                            </span>
+                        </label>
+                        <label class="calendar__item">
+                            <input class="calendar__input" name="select-date" type="radio">
+                            <span class="calendar__wrapper">
+                                <span class="calendar__text">
+                                    <b>12</b>Sun
+                                </span>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="ui" id="field">
             <div class="ui__title">
                 <div class="container">
@@ -194,9 +312,9 @@
                     <div class="columns">
                         <div class="columns__col columns__col--4">
                             <label class="field">
-                                    <span class="field__caption">
-                                        Email
-                                    </span>
+                                <span class="field__caption">
+                                    Email
+                                </span>
                                 <input class="field__input" placeholder="Enter your Email" type="email"
                                        value="alberto@profitmonkey.io">
                             </label>
@@ -424,6 +542,33 @@
                         </div>
                     </div>
                 </header>
+            </div>
+        </div>
+        <div class="ui" id="tag">
+            <div class="ui__title">
+                <div class="container">
+                    .tag
+                </div>
+            </div>
+            <div class="ui__content">
+                <div class="container">
+                    <div class="columns">
+                        <div class="columns__col columns__col--2">
+                            <div class="tag tag--green">
+                                <span class="tag__text">
+                                    Published
+                                </span>
+                            </div>
+                        </div>
+                        <div class="columns__col columns__col--2">
+                            <div class="tag tag--yellow">
+                                <span class="tag__text">
+                                    In review
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

@@ -1,0 +1,25 @@
+.tag {
+    display: flex;
+    color: $light;
+    height: rem(40);
+    width: fit-content;
+    font-size: rem(15);
+    min-width: rem(92);
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &--green {
+        background-image: url("../assets/images/tag-green.svg");
+    }
+
+    &--yellow {
+        background-image: url("../assets/images/tag-yellow.svg");
+    }
+
+    &__text {
+        font-weight: 700;
+    }
+}

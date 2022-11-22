@@ -1,0 +1,44 @@
+.nav-slider {
+    display: flex;
+
+    &__button {
+        display: flex;
+        flex-shrink: 0;
+        width: rem(40);
+        height: rem(40);
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s opacity;
+        background-color: $blue-dark;
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+        &:active {
+            opacity: 1;
+        }
+
+        &:disabled {
+            opacity: 0.3;
+            pointer-events: none;
+        }
+
+        &--prev {
+            border-top-left-radius: rem(8);
+            border-bottom-left-radius: rem(8);
+        }
+
+        &--next {
+            border-top-right-radius: rem(8);
+            border-bottom-right-radius: rem(8);
+        }
+    }
+
+    &__icon {
+        fill: $light;
+        width: rem(6);
+        height: rem(10);
+    }
+}

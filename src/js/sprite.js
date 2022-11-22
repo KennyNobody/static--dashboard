@@ -15,6 +15,7 @@ import setting from "../assets/sprite/icon-setting.svg";
 import shedule from "../assets/sprite/icon-shedule.svg";
 import show from "../assets/sprite/icon-show.svg";
 import trash from "../assets/sprite/icon-delete.svg";
+import write from "../assets/sprite/icon-write.svg";
 
 export default {
     arrowLeft,
@@ -33,5 +34,6 @@ export default {
     setting,
     shedule,
     show,
-    trash
+    trash,
+    write
 };
