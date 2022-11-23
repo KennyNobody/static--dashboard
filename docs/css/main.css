@@ -2816,7 +2816,18 @@ a.link-preview:active {
 .selector-lang {
   top: 2.1875rem;
   right: 3.125rem;
+  overflow: hidden;
   position: absolute;
+  border-radius: 0.5rem;
+  background-color: #FFFFFF;
+  border: 1px solid #c3c6d2;
+}
+.selector-lang.active .selector-lang__list {
+  opacity: 1;
+  max-height: 40vh;
+}
+.selector-lang.active .selector-lang__icon {
+  transform: rotate(-90deg);
 }
 .selector-lang__button {
   gap: 0.25rem;
@@ -2824,9 +2835,7 @@ a.link-preview:active {
   padding: 0.375rem;
   cursor: pointer;
   align-items: center;
-  border-radius: 0.5rem;
   transition: 0.3s opacity;
-  border: 1px solid #c3c6d2;
 }
 .selector-lang__button:hover {
   opacity: 0.7;
@@ -2846,6 +2855,27 @@ a.link-preview:active {
 .selector-lang__icon {
   width: 0.5rem;
   height: 0.8125rem;
+  transition: 0.3s transform;
+}
+.selector-lang__item {
+  display: block;
+  padding: 0.375rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: 0.3s opacity;
+}
+.selector-lang__item:hover {
+  opacity: 0.7;
+}
+.selector-lang__item:active {
+  opacity: 1;
+}
+.selector-lang__list {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  overflow-y: scroll;
+  transition: 0.3s all;
 }
 
 .tag {

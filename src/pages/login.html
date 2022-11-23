@@ -6,10 +6,7 @@
 </head>
 <body class="body">
 <div class="layout">
-    <div class="layout__header">
-
-    </div>
-    <main class="layout__main">
+    <div class="layout__main">
         <div class="layout__aside-main">
             <section class="intro" style="background-image: url('./assets/images/intro-bg.jpg')">
                 <div class="intro__wrapper">
@@ -25,16 +22,99 @@
                 </div>
             </section>
         </div>
-        <section class="layout__content layout__content--centered">
+        <main class="layout__content layout__content--centered">
             <section class="section section--centered">
                 <form action="POST" class="form form--login">
-                    <div class="selector-lang z-index-1">
-                        <button class="selector-lang__button ">
+                    <div class="selector-lang z-index-1" data-toggler="active">
+                        <button class="selector-lang__button" type="button">
                             <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
                             <span class="selector-lang__wrapper">
                                 <img alt="#" class="selector-lang__icon" src="./assets/icons/chevron.svg">
                             </span>
                         </button>
+                        <div class="selector-lang__list scrolls">
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                            <a href="" class="selector-lang__item">
+                                <img alt="" class="selector-lang__flag" src="./assets/icons/flag-usa.svg">
+                            </a>
+                        </div>
                     </div>
                     <h2 class="form__title mb-15">
                         Welcome to <strong>Profit Monkey</strong>
@@ -89,8 +169,8 @@
                     </button>
                 </form>
             </section>
-        </section>
-    </main>
+        </main>
+    </div>
 
 </div>
 <%= htmlWebpackPlugin.options.temp %>
