@@ -1,0 +1,60 @@
+.article-result {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: rem(8) rem(12);
+
+    &__picture {
+        width: auto;
+        display: flex;
+        flex-shrink: 0;
+        height: rem(48);
+        overflow: hidden;
+        align-items: center;
+        margin-right: rem(20);
+        border-radius: rem(8);
+        justify-content: center;
+        border: 1px solid $lilac;
+
+        &--small {
+            width: rem(48);
+
+            img {
+                width: 100%;
+                height: 100%;
+                display: block;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+
+        &--large {
+            width: rem(85);
+
+            img {
+                width: 90%;
+                height: 90%;
+                display: block;
+                object-fit: contain;
+                object-position: center;
+            }
+        }
+    }
+
+    &__content {
+        flex-grow: 1;
+        min-width: 0;
+    }
+
+    &__title {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &__caption {
+        color: $grey;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

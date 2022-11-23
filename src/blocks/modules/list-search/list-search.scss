@@ -1,0 +1,26 @@
+.list-search {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    border-radius: rem(11);
+    border: rem(2) solid $grey-light;
+
+    &__column {
+        width: 50%;
+        flex-shrink: 0;
+        padding-bottom: rem(15);
+        border-right: rem(2) solid $grey-light;
+
+        &:last-of-type {
+            border-right: 0;
+        }
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        min-height: rem(45);
+        padding: rem(5) rem(14);
+        background-color: $light;
+    }
+}

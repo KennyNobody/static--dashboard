@@ -91,7 +91,10 @@
     }
 
     &__message {
+        left: 0;
+        right: 0;
         display: block;
-        margin-top: rem(7);
+        position: absolute;
+        top: calc(100% + 7px);
     }
 }

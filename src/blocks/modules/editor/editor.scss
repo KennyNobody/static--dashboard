@@ -16,7 +16,7 @@
 
     &--center {
         text-align: center;
-        @include r(1200) {
+        @include r(1300) {
             text-align: left;
         }
     }
@@ -38,21 +38,21 @@
 
     h1 {
         font-size: rem(50);
-        @include r(1200) {
+        @include r(1300) {
             font-size: rem(44);
         }
     }
 
     h2 {
         font-size: rem(44);
-        @include r(1200) {
+        @include r(1300) {
             font-size: rem(36);
         }
     }
 
     h3 {
         font-size: rem(36);
-        @include r(1200) {
+        @include r(1300) {
             font-size: rem(24);
         }
     }
@@ -60,14 +60,14 @@
     // Используется
     h4 {
         font-size: rem(24);
-        @include r(1200) {
+        @include r(1300) {
             font-size: rem(20);
         }
     }
 
     h5 {
         font-size: rem(20);
-        @include r(1200) {
+        @include r(1300) {
             font-size: rem(16);
         }
     }
@@ -78,7 +78,7 @@
 
     p {
         margin-bottom: 2rem;
-        @include r(1200) {
+        @include r(1300) {
             margin-bottom: rem(30);
         }
     }
@@ -91,7 +91,7 @@
     ul,
     ol {
         margin-bottom: 2rem;
-        @include r(1200) {
+        @include r(1300) {
             margin-bottom: rem(30);
         }
 
@@ -124,7 +124,7 @@
         font-size: rem(24);
         margin-bottom: 2rem;
         padding: rem(33) rem(72);
-        @include r(1200) {
+        @include r(1300) {
             font-weight: 400;
             font-size: rem(20);
             margin-left: rem(-15);
@@ -141,7 +141,7 @@
             display: block;
             bottom: rem(33);
             position: absolute;
-            @include r(1200) {
+            @include r(1300) {
                 left: rem(30);
                 top: rem(30);
                 bottom: rem(30);
@@ -152,7 +152,7 @@
     figure {
         display: block;
         margin-bottom: 2rem;
-        @include r(1200) {
+        @include r(1300) {
             margin-bottom: rem(30);
         }
     }

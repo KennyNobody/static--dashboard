@@ -1,4 +1,5 @@
 @import "modules/article/article";
+@import "modules/article-result/article-result";
 @import "modules/aside/aside";
 @import "modules/block-info/block-info";
 @import "modules/block-status/block-status";
@@ -27,6 +28,7 @@
 @import "modules/link/link";
 @import "modules/link-logo/link-logo";
 @import "modules/link-preview/link-preview";
+@import "modules/list-search/list-search";
 @import "modules/loader/loader";
 @import "modules/main/main";
 @import "modules/nav-slider/nav-slider";
@@ -41,6 +43,6 @@
 @import "modules/toolbar-head/toolbar-head";
 @import "modules/uploader-image/uploader-image";
 
-@include r(1200) {
+@include r(1300) {
     
 }

@@ -1,7 +1,8 @@
 .layout {
-    height: 100vh;
+    //height: 100vh;
+    height: auto;
     display: flex;
-    min-height: rem(1150);
+    min-height: 100vh;
     flex-direction: column;
     //&__header {
     //    flex-shrink: 0;

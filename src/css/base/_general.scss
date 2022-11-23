@@ -27,7 +27,7 @@ button {
 }
 
 .mob-hidden {
-    @include r(1200) {
+    @include r(1300) {
         visibility: hidden !important;
         display: none !important;
     }
@@ -36,7 +36,7 @@ button {
  .desktop-hidden {
      display: none;
      visibility: hidden;
-     @include r(1200) {
+     @include r(1300) {
          display: block;
          visibility: visible;
      }
@@ -45,47 +45,47 @@ button {
 
 .order-m {
     &-1 {
-        @include r(1200) {
+        @include r(1300) {
             order: 1;
         }
     }
     &-2 {
-        @include r(1200) {
+        @include r(1300) {
             order: 2;
         }
     }
     &-3 {
-        @include r(1200) {
+        @include r(1300) {
             order: 3;
         }
     }
     &-4 {
-        @include r(1200) {
+        @include r(1300) {
             order: 4;
         }
     }
     &-5 {
-        @include r(1200) {
+        @include r(1300) {
             order: 5;
         }
     }
     &-6 {
-        @include r(1200) {
+        @include r(1300) {
             order: 6;
         }
     }
     &-7 {
-        @include r(1200) {
+        @include r(1300) {
             order: 7;
         }
     }
     &-8 {
-        @include r(1200) {
+        @include r(1300) {
             order: 8;
         }
     }
     &-9 {
-        @include r(1200) {
+        @include r(1300) {
             order: 9;
         }
     }

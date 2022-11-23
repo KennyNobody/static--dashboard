@@ -52,6 +52,16 @@ module.exports = [
         temp
     }),
     new HtmlWebpackPlugin({
+        template: "./src/pages/home-result.html",
+        filename: "home-result.html",
+        inject: "body",
+        title: "Home Results | Dashboard",
+        aside,
+        head,
+        footer,
+        temp
+    }),
+    new HtmlWebpackPlugin({
         template: "./src/pages/profile.html",
         filename: "profile.html",
         inject: "body",
