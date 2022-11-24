@@ -1,0 +1,19 @@
+.article-chart {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+
+    &__icon {
+        flex-shrink: 0;
+        width: rem(10);
+        display: block;
+        height: rem(10);
+        border-radius: rem(10);
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: rem(14);
+        margin-left: rem(6);
+    }
+}

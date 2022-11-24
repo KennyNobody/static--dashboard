@@ -1,6 +1,15 @@
 .nav-slider {
     display: flex;
 
+    &--small {
+        .nav-slider {
+            &__button {
+                width: rem(36);
+                height: rem(36);
+            }
+        }
+    }
+
     &__button {
         display: flex;
         flex-shrink: 0;

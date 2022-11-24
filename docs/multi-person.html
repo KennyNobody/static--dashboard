@@ -105,30 +105,276 @@
 </aside>
         </div>
         <main class="layout__content layout__content--regular">
-            <section class="section section--full section--centered">
-                <div class="form-search">
-                    <img alt="" class="form-search__picture" src="./assets/images/picture-mascot.svg">
-                    <div class="form-search__wrapper">
-                        <input class="form-search__input" type="text">
-                        <button class="form-search__button">
-                            <svg class="form-search__icon">
-                                <use xlink:href="./assets/sprite/sprite.svg#icon-search"></use>
-                            </svg>
-                        </button>
+            <section class="section section--full section--centered section--padding">
+                <div class="columns">
+                    <div class="columns__col columns__col--7">
+                        <article class="chart">
+                            <div class="chart__header">
+                                <div class="toolbar mb-20">
+                                    <div class="title-head">
+                                        <p class="title-head__text">
+                                            <b>Weekly Sales / </b><span>My Restaurants (7)</span>
+                                        </p>
+                                    </div>
+                                    <div class="separator"></div>
+                                    <div class="toolbar__section">
+                                        <div class="block-info">
+                                        <span class="block-info__text">
+                                            08-15 Jan
+                                        </span>
+                                        </div>
+                                        <div class="nav-slider">
+                                            <button class="nav-slider__button nav-slider__button--prev">
+                                                <svg class="nav-slider__icon">
+                                                    <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-left"></use>
+                                                </svg>
+                                            </button>
+                                            <button class="nav-slider__button nav-slider__button--next" disabled="">
+                                                <svg class="nav-slider__icon">
+                                                    <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-right"></use>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="toolbar">
+                                    <div class="toolbar__section">
+                                        <div class="article-chart">
+                                            <div class="article-chart__icon" style="background-color: #50CFBC"></div>
+                                            <span class="article-chart__title">
+                                                    SALES
+                                                </span>
+                                        </div>
+                                        <div class="article-chart">
+                                            <div class="article-chart__icon" style="background-color: #FF9170;"></div>
+                                            <span class="article-chart__title">
+                                                    COST Food/Bev
+                                                </span>
+                                        </div>
+                                        <div class="article-chart">
+                                            <div class="article-chart__icon" style="background-color: #FDC500"></div>
+                                            <span class="article-chart__title">
+                                                    PAYROLL BoH/FoH
+                                                </span>
+                                        </div>
+                                    </div>
+                                    <div class="separator"></div>
+                                    <div class="toolbar__section">
+                                        <select class="select select--shadow w-130">
+                                            <option disabled selected value="">
+                                                Order by
+                                            </option>
+                                            <option value="1">
+                                                Variant 1
+                                            </option>
+                                            <option value="2">
+                                                Variant 2
+                                            </option>
+                                            <option value="3">
+                                                Variant 3
+                                            </option>
+                                        </select>
+                                        <a class="button-icon button-icon--small" href="">
+                                            <svg class="button-icon__icon">
+                                                <use xlink:href="./assets/sprite/sprite.svg#icon-filter"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chart__main">
+                                <img alt=""
+                                     src="./assets/content/chart.svg"
+                                     style="display: block; width: 100%; height: auto">
+                            </div>
+                            <div class="chart__footer">
+                                <div class="toolbar toolbar--end">
+                                    <div class="toolbar__section">
+                                        <div class="nav-slider nav-slider--small">
+                                            <button class="nav-slider__button nav-slider__button--prev">
+                                                <svg class="nav-slider__icon">
+                                                    <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-left"></use>
+                                                </svg>
+                                            </button>
+                                            <button class="nav-slider__button nav-slider__button--next" disabled="">
+                                                <svg class="nav-slider__icon">
+                                                    <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-right"></use>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <a class="button-icon button-icon--small" href="">
+                                            <svg class="button-icon__icon">
+                                                <use xlink:href="./assets/sprite/sprite.svg#icon-scale-plus"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
                     </div>
-                    <p class="form-search__caption">
-                        Work hard and make it happen
-                    </p>
+                    <div class="columns__col columns__col--4">
+                        <div class="list-quotes">
+                            <div class="list-quotes__header">
+                                <div class="list-quotes__column">
+                                    <div class="field">
+                                        <p class="field__caption field__caption--thin">
+                                            This Week
+                                        </p>
+                                        <p class="field__text field__text--bold">
+                                            08-15 Sept
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="list-quotes__column right">
+                                    <div class="field">
+                                        <p class="field__caption field__caption--thin">
+                                            Last Week
+                                        </p>
+                                        <p class="field__text field__text--bold">
+                                            01-07 Sept
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-quotes__content scrolls">
+                                <article class="article-quote" style="border-right-color: #50CFBC;">
+                                    <div class="article-quote__column">
+                                        <h3 class="article-quote__title">
+                                            Cost Food
+                                        </h3>
+                                        <p class="article-quote__price article-quote__price--large">
+                                            $3,156
+                                        </p>
+                                    </div>
+                                    <div class="article-quote__column right">
+                                        <div class="article-quote__progress">
+                                            <div class="block-progress block-progress--more righted">
+                                                <svg class="block-progress__icon">
+                                                    <use xlink:href="./assets/sprite/sprite.svg#icon-more"></use>
+                                                </svg>
+                                                <span class="block-progress__text">
+                                                    39.5%
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p class="article-quote__price article-quote__price--small">
+                                            $3,100
+                                        </p>
+                                    </div>
+                                </article>
+                                <article class="article-quote" style="border-right-color: #FF9170;">
+                                    <div class="article-quote__column">
+                                        <h3 class="article-quote__title">
+                                            Cost Food
+                                        </h3>
+                                        <p class="article-quote__price article-quote__price--regular">
+                                            $3,156
+                                        </p>
+                                    </div>
+                                    <div class="article-quote__column right">
+                                        <div class="article-quote__progress">
+                                            <div class="block-progress block-progress--more righted">
+                                                <svg class="block-progress__icon">
+                                                    <use xlink:href="./assets/sprite/sprite.svg#icon-more"></use>
+                                                </svg>
+                                                <span class="block-progress__text">
+                                                    39.5%
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p class="article-quote__price article-quote__price--small">
+                                            $3,100
+                                        </p>
+                                    </div>
+                                </article>
+                                <article class="article-quote" style="border-right-color: #FF9170;">
+                                    <div class="article-quote__column">
+                                        <h3 class="article-quote__title">
+                                            Cost Food
+                                        </h3>
+                                        <p class="article-quote__price article-quote__price--regular">
+                                            $3,156
+                                        </p>
+                                    </div>
+                                    <div class="article-quote__column right">
+                                        <div class="article-quote__progress">
+                                            <div class="block-progress block-progress--more righted">
+                                                <svg class="block-progress__icon">
+                                                    <use xlink:href="./assets/sprite/sprite.svg#icon-more"></use>
+                                                </svg>
+                                                <span class="block-progress__text">
+                                                    39.5%
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p class="article-quote__price article-quote__price--small">
+                                            $3,100
+                                        </p>
+                                    </div>
+                                </article>
+                                <article class="article-quote" style="border-right-color: #FDC500;">
+                                    <div class="article-quote__column">
+                                        <h3 class="article-quote__title">
+                                            Cost Food
+                                        </h3>
+                                        <p class="article-quote__price article-quote__price--regular">
+                                            $3,156
+                                        </p>
+                                    </div>
+                                    <div class="article-quote__column right">
+                                        <div class="article-quote__progress">
+                                            <div class="block-progress block-progress--more righted">
+                                                <svg class="block-progress__icon">
+                                                    <use xlink:href="./assets/sprite/sprite.svg#icon-more"></use>
+                                                </svg>
+                                                <span class="block-progress__text">
+                                                    39.5%
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p class="article-quote__price article-quote__price--small">
+                                            $3,100
+                                        </p>
+                                    </div>
+                                </article>
+                                <article class="article-quote" style="border-right-color: #FDC500;">
+                                    <div class="article-quote__column">
+                                        <h3 class="article-quote__title">
+                                            Cost Food
+                                        </h3>
+                                        <p class="article-quote__price article-quote__price--regular">
+                                            $3,156
+                                        </p>
+                                    </div>
+                                    <div class="article-quote__column right">
+                                        <div class="article-quote__progress">
+                                            <div class="block-progress block-progress--more righted">
+                                                <svg class="block-progress__icon">
+                                                    <use xlink:href="./assets/sprite/sprite.svg#icon-more"></use>
+                                                </svg>
+                                                <span class="block-progress__text">
+                                                    39.5%
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p class="article-quote__price article-quote__price--small">
+                                            $3,100
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <footer class="footer">
-                <span>
-                    v 2022.09.25
-                </span>
-                <span>
-                    Profit Monkey | Copyright 2022
-                </span>
-            </footer>
+    <span>
+        v 2022.09.25
+    </span>
+    <span>
+        <a href="">Profit Monkey</a> | Copyright 2022
+    </span>
+</footer>
         </main>
     </div>
 </div>

@@ -24,6 +24,10 @@
         display: block;
         margin-bottom: rem(10);
 
+        &--thin {
+            margin-bottom: 0;
+        }
+
         b {
             color: $red;
         }
@@ -60,6 +64,11 @@
         color: $dark;
         display: block;
         font-size: rem(15);
+
+        &--bold {
+            font-weight: 700;
+            font-size: rem(17);
+        }
     }
 
     &__button {

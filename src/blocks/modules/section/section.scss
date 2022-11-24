@@ -10,6 +10,13 @@
         justify-content: center;
     }
 
+    &--between {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
     &--align {
         display: flex;
         flex-direction: column;
@@ -17,6 +24,10 @@
     }
 
     &--regular {
-        padding: rem(25) rem(50);
+        padding: rem(25) 0;
+    }
+
+    &--padding {
+        padding: rem(25) rem(25);
     }
 }

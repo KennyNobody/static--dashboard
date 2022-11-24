@@ -1,0 +1,22 @@
+.list-quotes {
+    &__header {
+        display: flex;
+        padding: rem(15) rem(25);
+        background-color: $light;
+        justify-content: space-between;
+    }
+
+    &__column {
+        flex-grow: 1;
+        flex-basis: 0;
+        border-right: 1px solid $grey-light;
+
+        &:last-of-type {
+            border-right: none;
+        }
+    }
+
+    &__content {
+
+    }
+}

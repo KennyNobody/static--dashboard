@@ -1,0 +1,45 @@
+.article-quote {
+    display: flex;
+    border-right: rem(6) solid rgba(255, 255, 255, 0);
+    border-bottom: 1px solid $grey-light;
+
+    &:last-of-type {
+        border-bottom: 0;
+    }
+
+    &__column {
+        flex-grow: 1;
+        flex-basis: 0;
+        display: flex;
+        padding: rem(22);
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: rem(22);
+    }
+
+    &__price {
+        font-weight: 300;
+        font-size: rem(16);
+
+        &--large {
+            font-weight: 600;
+            font-size: rem(33);
+        }
+
+        &--regular {
+            font-size: rem(26);
+        }
+
+        &--small {
+            font-size: rem(16);
+        }
+    }
+
+    &__progress {
+        margin-bottom: rem(10);
+    }
+}

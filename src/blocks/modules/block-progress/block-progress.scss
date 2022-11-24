@@ -1,0 +1,22 @@
+.block-progress {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+
+    &--more {
+        color: $red;
+    }
+
+    &__icon {
+        fill: $red;
+        width: rem(9);
+        height: rem(9);
+        flex-shrink: 0;
+        display: block;
+        margin-right: rem(5);
+    }
+
+    &__text {
+        font-size: rem(14);
+    }
+}
