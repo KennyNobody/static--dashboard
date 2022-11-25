@@ -2,6 +2,7 @@
 @import "modules/article-chart/article-chart";
 @import "modules/article-quote/article-quote";
 @import "modules/article-result/article-result";
+@import "modules/article-section/article-section";
 @import "modules/aside/aside";
 @import "modules/block-info/block-info";
 @import "modules/block-progress/block-progress";
@@ -36,12 +37,16 @@
 @import "modules/list-search/list-search";
 @import "modules/loader/loader";
 @import "modules/main/main";
+@import "modules/caption/caption";
 @import "modules/nav-slider/nav-slider";
+@import "modules/nav-resize/nav-resize";
 @import "modules/nav-tabs/nav-tabs";
 @import "modules/navbar/navbar";
+@import "modules/radio-icon/radio-icon";
 @import "modules/select/select";
 @import "modules/section/section";
 @import "modules/selector-lang/selector-lang";
+@import "modules/switcher/switcher";
 @import "modules/tag/tag";
 @import "modules/title/title";
 @import "modules/title-head/title-head";
@@ -49,6 +54,7 @@
 @import "modules/toolbar-column/toolbar-column";
 @import "modules/toolbar/toolbar";
 @import "modules/uploader-image/uploader-image";
+@import "modules/radio-group/radio-group";
 
 @include r(1300) {
     

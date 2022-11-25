@@ -46,8 +46,59 @@
             <%= htmlWebpackPlugin.options.aside %>
         </div>
         <main class="layout__content layout__content--regular">
-            <section class="section section--full section--centered">
-
+            <section class="section section--full section--padding section--align">
+                <nav class="nav-tabs nav-tabs--blue mb-25">
+                    <a href="" class="nav-tabs__link active" data-toggler="active">
+                        My Info
+                    </a>
+                    <a href="" class="nav-tabs__link" data-toggler="active">
+                        Business Hours (8)
+                    </a>
+                    <a href="" class="nav-tabs__link" data-toggler="active">
+                        Co-Owners (0)
+                    </a>
+                    <a href="" class="nav-tabs__link" data-toggler="active">
+                        Managers (0)
+                    </a>
+                </nav>
+                <article class="article">
+                    <div class="article__header">
+                        <div class="columns">
+                            <div class="columns__col columns__col--7">
+                                <div class="toolbar">
+                                    <div class="title-head">
+                                        <p class="title-head__text">
+                                            <b>Business Hours</b>
+                                        </p>
+                                    </div>
+                                    <div class="caption">
+                                        <p>
+                                            Set default restaurant working hours
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article__main">
+                        <!-- Rounded switch -->
+                        <label class="switcher switcher--regular">
+                            <input class="switcher__input" type="checkbox">
+                            <span class="switcher__field"></span>
+                        </label>
+                    </div>
+                    <div class="article__footer">
+                        <div class="columns">
+                            <div class="columns__col columns__col--9">
+                                <button class="button button--orange button--small righted">
+                                    <span class="button__text">
+                                        Save
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
             </section>
             <%= htmlWebpackPlugin.options.footer %>
         </main>

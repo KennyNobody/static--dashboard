@@ -80,6 +80,9 @@
                     <a class="ui-nav__link" href="#article">
                         .article
                     </a>
+                    <a class="ui-nav__link" href="#article-section">
+                        .article-section
+                    </a>
                     <a class="ui-nav__link" href="#button-icon">
                         .button-icon
                     </a>
@@ -98,29 +101,15 @@
                     <a class="ui-nav__link" href="#nav-tabs">
                         .nav-tabs
                     </a>
+                    <a class="ui-nav__link" href="#radio-icon">
+                        .radio-icon
+                    </a>
                     <a class="ui-nav__link" href="#tag">
                         .tag
                     </a>
                 </div>
             </div>
         </div>
-
-        <!--        <div class="ui" id="aside">-->
-        <!--            <div class="ui__title">-->
-        <!--                <div class="container">-->
-        <!--                    .aside-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--            <div class="ui__content">-->
-        <!--                <div class="container">-->
-        <!--                    <div class="columns">-->
-        <!--                        <div class="columns__col">-->
-
-        <!--                        </div>-->
-        <!--                    </div>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
 
         <div class="ui" id="article">
             <div class="ui__title">
@@ -143,6 +132,108 @@
                                     .article__footer
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui" id="article-section">
+            <div class="ui__title">
+                <div class="container">
+                    .article-section
+                </div>
+            </div>
+            <div class="ui__content">
+                <div class="container">
+                    <div class="columns">
+                        <div class="columns__col columns__col--3">
+                            <article class="article-section">
+                                <div class="article-section__main">
+                                    <h3 class="article-section__title">
+                                        Breaks
+                                    </h3>
+                                    <p class="article-section__caption">
+                                        Not Taken
+                                    </p>
+                                    <p class="article-section__strong">
+                                        23
+                                    </p>
+                                </div>
+                                <div class="article-section__footer">
+                                    <select class="article-section__select">
+                                        <option value="1">This week</option>
+                                        <option value="2">This month</option>
+                                        <option value="3">This year</option>
+                                    </select>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="columns__col columns__col--3">
+                            <article class="article-section">
+                                <div class="article-section__main">
+                                    <h3 class="article-section__title">
+                                        Reports
+                                    </h3>
+                                    <p class="article-section__caption">
+                                        Need Attention
+                                    </p>
+                                    <p class="article-section__strong">
+                                        13
+                                    </p>
+                                </div>
+                                <div class="article-section__footer">
+                                    <select class="article-section__select">
+                                        <option value="1">This week</option>
+                                        <option value="2">This month</option>
+                                        <option value="3">This year</option>
+                                    </select>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="columns__col columns__col--3">
+                            <article class="article-section">
+                                <div class="article-section__main">
+                                    <h3 class="article-section__title">
+                                        ToDos
+                                    </h3>
+                                    <p class="article-section__caption">
+                                        Not Completed
+                                    </p>
+                                    <p class="article-section__strong">
+                                        531
+                                    </p>
+                                </div>
+                                <div class="article-section__footer">
+                                    <select class="article-section__select">
+                                        <option value="1">This week</option>
+                                        <option value="2">This month</option>
+                                        <option value="3">This year</option>
+                                    </select>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="columns__col columns__col--3">
+                            <article class="article-section">
+                                <div class="article-section__main">
+                                    <h3 class="article-section__title">
+                                        Schedules
+                                    </h3>
+                                    <p class="article-section__caption">
+                                        Resources Missing
+                                    </p>
+                                    <p class="article-section__strong">
+                                        11
+                                    </p>
+                                </div>
+                                <div class="article-section__footer">
+                                    <select class="article-section__select">
+                                        <option value="1">This week</option>
+                                        <option value="2">This month</option>
+                                        <option value="3">This year</option>
+                                    </select>
+                                </div>
+                            </article>
                         </div>
                     </div>
                 </div>
@@ -759,6 +850,58 @@
                         <a class="nav-tabs__link" data-toggler="active" href="">
                             Reviews
                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ui" id="radio-icon">
+            <div class="ui__title">
+                <div class="container">
+                    .radio-icon
+                </div>
+            </div>
+            <div class="ui__content">
+                <div class="container">
+                    <div class="toolbar toolbar--start">
+                        <div class="toolbar__section">
+                            <div class="caption">
+                                <p>
+                                    Today's Weather:
+                                </p>
+                            </div>
+                        </div>
+                        <div class="toolbar__section">
+                            <label class="radio-icon">
+                                <input value="0" name="radio-weather" type="radio" class="radio-icon__input" checked>
+                                <span class="radio-icon__wrapper">
+                                    <img src="./assets/content/weather-1.svg" alt="Cloud">
+                                </span>
+                            </label>
+                            <label class="radio-icon">
+                                <input value="1" name="radio-weather" type="radio" class="radio-icon__input">
+                                <span class="radio-icon__wrapper">
+                                    <img src="./assets/content/weather-2.svg" alt="Cloud">
+                                </span>
+                            </label>
+                            <label class="radio-icon">
+                                <input value="2" name="radio-weather" type="radio" class="radio-icon__input">
+                                <span class="radio-icon__wrapper">
+                                    <img src="./assets/content/weather-3.svg" alt="Cloud">
+                                </span>
+                            </label>
+                            <label class="radio-icon">
+                                <input value="3" name="radio-weather" type="radio" class="radio-icon__input">
+                                <span class="radio-icon__wrapper">
+                                    <img src="./assets/content/weather-4.svg" alt="Cloud">
+                                </span>
+                            </label>
+                            <label class="radio-icon">
+                                <input value="4" name="radio-weather" type="radio" class="radio-icon__input">
+                                <span class="radio-icon__wrapper">
+                                    <img src="./assets/content/weather-5.svg" alt="Cloud">
+                                </span>
+                            </label>
+                        </div>
                     </div>
                 </div>
             </div>

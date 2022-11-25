@@ -1,0 +1,51 @@
+.switcher {
+    width: 100%;
+    display: block;
+    height: rem(20);
+    position: relative;
+    transition: 0.3s opacity;
+
+    &:hover {
+        opacity: 0.7;
+    }
+
+    &__input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+
+        &:checked {
+            & + .switcher__field {
+                &:before {
+                    background-color: $green-dark;
+                    left: calc(100% - 16px);
+                }
+            }
+        }
+    }
+
+    &__field {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        cursor: pointer;
+        transition: .4s;
+        position: absolute;
+        border-radius: rem(34);
+        background-color: $white;
+        border: 1px solid $black;
+
+        &:before {
+            content: "";
+            left: 2px;
+            bottom: 2px;
+            width: 14px;
+            height: 14px;
+            transition: .4s;
+            position: absolute;
+            border-radius: rem(20);
+            background-color: $red;
+        }
+    }
+}

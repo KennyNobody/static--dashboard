@@ -1,6 +1,6 @@
 .columns {
     width: 100%;
-    gap: rem(30);
+    gap: rem(24);
     display: grid;
     grid-auto-flow: dense;
     grid-template-rows: minmax(0, 1fr);
@@ -9,7 +9,7 @@
         //gap: 0;
     }
     &--small {
-        gap: rem(14);
+        gap: rem(16);
     }
     &__col {
         position: relative;

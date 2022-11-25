@@ -26,6 +26,17 @@
         }
     }
 
+    &--lilac {
+        .nav-tabs__link.active {
+            color: $blue;
+
+            &:after {
+                opacity: 1;
+                background-color: $blue;
+            }
+        }
+    }
+
     &__link {
         color: $grey;
         flex-grow: 1;

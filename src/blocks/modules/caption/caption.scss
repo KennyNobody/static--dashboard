@@ -1,0 +1,13 @@
+.caption {
+    strong {
+        color: $dark;
+    }
+
+    span {
+        color: $grey;
+    }
+
+    p:not(:last-of-type) {
+        margin-bottom: 1em;
+    }
+}

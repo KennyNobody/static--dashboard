@@ -25,6 +25,15 @@
                         </p>
                     </a>
                 </div>
+<!--                <a class="button-icon button-icon&#45;&#45;text" href="">-->
+<!--                    <span class="button-icon__text">-->
+<!--                        Edit-->
+<!--                    </span>-->
+<!--                    <svg class="button-icon__icon">-->
+<!--                        <use xlink:href="./assets/sprite/sprite.svg#icon-write"></use>-->
+<!--                    </svg>-->
+<!--                </a>-->
+<!--                <div class="separator"></div>-->
                 <div class="navbar__user">
                     <button class="button-counter">
                         <svg class="button-counter__icon">
@@ -46,8 +55,335 @@
             <%= htmlWebpackPlugin.options.aside %>
         </div>
         <main class="layout__content layout__content--regular">
-            <section class="section section--full section--centered">
+            <section class="section section--full section--centered section--padding">
+                <div class="columns mb-35">
+                    <div class="columns__col columns__col--5">
+                        <article class="chart">
+                            <div class="chart__header">
+                                <div class="toolbar mb-30">
+                                    <div class="title-head">
+                                        <p class="title-head__text">
+                                            <b>This Week</b>
+                                        </p>
+                                    </div>
+                                    <div class="separator"></div>
+                                    <div class="toolbar__section">
+                                        <div class="block-info">
+                                                <span class="block-info__text">
+                                                    08-15 Jan
+                                                </span>
+                                        </div>
+                                        <div class="nav-slider">
+                                            <button class="nav-slider__button nav-slider__button--prev">
+                                                <svg class="nav-slider__icon">
+                                                    <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-left"></use>
+                                                </svg>
+                                            </button>
+                                            <button class="nav-slider__button nav-slider__button--next" disabled="">
+                                                <svg class="nav-slider__icon">
+                                                    <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-right"></use>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="toolbar">
+                                    <div class="toolbar__section">
+                                        <div class="article-chart">
+                                            <div class="article-chart__icon" style="background-color: #50CFBC"></div>
+                                            <span class="article-chart__title">
+                                                    SALES
+                                                </span>
+                                        </div>
 
+                                        <div class="article-chart">
+                                            <div class="article-chart__icon" style="background-color: #FF9170;"></div>
+                                            <span class="article-chart__title">
+                                                    COST Food/Bev
+                                                </span>
+                                        </div>
+
+                                        <div class="article-chart">
+                                            <div class="article-chart__icon" style="background-color: #FDC500"></div>
+                                            <span class="article-chart__title">
+                                                    PAYROLL BoH/FoH
+                                                </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chart__main">
+                                <img alt=""
+                                     src="./assets/content/diagram.svg"
+                                     style="display: block; width: 100%; height: auto">
+                            </div>
+                        </article>
+                    </div>
+                    <div class="columns__col columns__col--4">
+                        <div class="list-quotes">
+                            <div class="list-quotes__header">
+                                <div class="list-quotes__column">
+                                    <div class="field">
+                                        <p class="field__caption field__caption--thin">
+                                            This Week
+                                        </p>
+                                        <p class="field__text field__text--bold">
+                                            08-15 Sept
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="list-quotes__column right">
+                                    <div class="field">
+                                        <p class="field__caption field__caption--thin">
+                                            Last Week
+                                        </p>
+                                        <p class="field__text field__text--bold">
+                                            01-07 Sept
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-quotes__content scrolls">
+                                <article class="article-quote" style="border-right-color: #50CFBC;">
+                                    <div class="article-quote__column">
+                                        <h3 class="article-quote__title">
+                                            Cost Food
+                                        </h3>
+                                        <p class="article-quote__price article-quote__price--large">
+                                            $800,983
+                                        </p>
+                                    </div>
+                                    <div class="article-quote__column right">
+                                        <div class="article-quote__progress">
+                                            <div class="block-progress block-progress--less righted">
+                                                <svg class="block-progress__icon">
+                                                    <use xlink:href="./assets/sprite/sprite.svg#icon-less"></use>
+                                                </svg>
+                                                <span class="block-progress__text">
+                                                    39.5%
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p class="article-quote__price article-quote__price--small">
+                                            $3,100
+                                        </p>
+                                    </div>
+                                </article>
+                                <article class="article-quote" style="border-right-color: #FF9170;">
+                                    <div class="article-quote__column">
+                                        <h3 class="article-quote__title">
+                                            Cost Food
+                                        </h3>
+                                        <p class="article-quote__price article-quote__price--regular">
+                                            $3,156
+                                        </p>
+                                    </div>
+                                    <div class="article-quote__column right">
+                                        <div class="article-quote__progress">
+                                            <div class="block-progress block-progress--more righted">
+                                                <svg class="block-progress__icon">
+                                                    <use xlink:href="./assets/sprite/sprite.svg#icon-more"></use>
+                                                </svg>
+                                                <span class="block-progress__text">
+                                                    39.5%
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p class="article-quote__price article-quote__price--small">
+                                            $3,100
+                                        </p>
+                                    </div>
+                                </article>
+                                <article class="article-quote" style="border-right-color: #FF9170;">
+                                    <div class="article-quote__column">
+                                        <h3 class="article-quote__title">
+                                            Cost Food
+                                        </h3>
+                                        <p class="article-quote__price article-quote__price--regular">
+                                            $3,156
+                                        </p>
+                                    </div>
+                                    <div class="article-quote__column right">
+                                        <div class="article-quote__progress">
+                                            <div class="block-progress block-progress--less righted">
+                                                <svg class="block-progress__icon">
+                                                    <use xlink:href="./assets/sprite/sprite.svg#icon-less"></use>
+                                                </svg>
+                                                <span class="block-progress__text">
+                                                    39.5%
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p class="article-quote__price article-quote__price--small">
+                                            $3,100
+                                        </p>
+                                    </div>
+                                </article>
+                                <article class="article-quote" style="border-right-color: #FDC500;">
+                                    <div class="article-quote__column">
+                                        <h3 class="article-quote__title">
+                                            Cost Food
+                                        </h3>
+                                        <p class="article-quote__price article-quote__price--regular">
+                                            $3,156
+                                        </p>
+                                    </div>
+                                    <div class="article-quote__column right">
+                                        <div class="article-quote__progress">
+                                            <div class="block-progress block-progress--more righted">
+                                                <svg class="block-progress__icon">
+                                                    <use xlink:href="./assets/sprite/sprite.svg#icon-more"></use>
+                                                </svg>
+                                                <span class="block-progress__text">
+                                                    39.5%
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p class="article-quote__price article-quote__price--small">
+                                            $3,100
+                                        </p>
+                                    </div>
+                                </article>
+                                <article class="article-quote" style="border-right-color: #FDC500;">
+                                    <div class="article-quote__column">
+                                        <h3 class="article-quote__title">
+                                            Cost Food
+                                        </h3>
+                                        <p class="article-quote__price article-quote__price--regular">
+                                            $3,156
+                                        </p>
+                                    </div>
+                                    <div class="article-quote__column right">
+                                        <div class="article-quote__progress">
+                                            <div class="block-progress block-progress--less righted">
+                                                <svg class="block-progress__icon">
+                                                    <use xlink:href="./assets/sprite/sprite.svg#icon-less"></use>
+                                                </svg>
+                                                <span class="block-progress__text">
+                                                    39.5%
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p class="article-quote__price article-quote__price--small">
+                                            $3,100
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns__col columns__col--2">
+                        <div class="toolbar-column toolbar-column--regular">
+                            <a class="button button--green button--h-60 full-width" href="">
+                                <span class="button__text">
+                                    Weekly Report
+                                </span>
+                            </a>
+                            <a class="button button--green button--h-60 full-width" href="">
+                                <span class="button__text">
+                                    ToDos
+                                </span>
+                            </a>
+                            <a class="button button--green button--h-60 full-width" href="">
+                                <span class="button__text">
+                                    Schedule
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="columns__col columns__col--11">
+                        <div class="columns">
+                            <div class="columns__col columns__col--3">
+                                <article class="article-section">
+                                    <div class="article-section__main">
+                                        <h3 class="article-section__title">
+                                            Breaks
+                                        </h3>
+                                        <p class="article-section__caption">
+                                            Not Taken
+                                        </p>
+                                        <p class="article-section__strong">
+                                            23
+                                        </p>
+                                    </div>
+                                    <div class="article-section__footer">
+                                        <select class="article-section__select">
+                                            <option value="1">This week</option>
+                                            <option value="2">This month</option>
+                                            <option value="3">This year</option>
+                                        </select>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="columns__col columns__col--3">
+                                <article class="article-section">
+                                    <div class="article-section__main">
+                                        <h3 class="article-section__title">
+                                            Reports
+                                        </h3>
+                                        <p class="article-section__caption">
+                                            Need Attention
+                                        </p>
+                                        <p class="article-section__strong">
+                                            13
+                                        </p>
+                                    </div>
+                                    <div class="article-section__footer">
+                                        <select class="article-section__select">
+                                            <option value="1">This week</option>
+                                            <option value="2">This month</option>
+                                            <option value="3">This year</option>
+                                        </select>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="columns__col columns__col--3">
+                                <article class="article-section">
+                                    <div class="article-section__main">
+                                        <h3 class="article-section__title">
+                                            ToDos
+                                        </h3>
+                                        <p class="article-section__caption">
+                                            Not Completed
+                                        </p>
+                                        <p class="article-section__strong">
+                                            531
+                                        </p>
+                                    </div>
+                                    <div class="article-section__footer">
+                                        <select class="article-section__select">
+                                            <option value="1">This week</option>
+                                            <option value="2">This month</option>
+                                            <option value="3">This year</option>
+                                        </select>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="columns__col columns__col--3">
+                                <article class="article-section">
+                                    <div class="article-section__main">
+                                        <h3 class="article-section__title">
+                                            Schedules
+                                        </h3>
+                                        <p class="article-section__caption">
+                                            Resources Missing
+                                        </p>
+                                        <p class="article-section__strong">
+                                            11
+                                        </p>
+                                    </div>
+                                    <div class="article-section__footer">
+                                        <select class="article-section__select">
+                                            <option value="1">This week</option>
+                                            <option value="2">This month</option>
+                                            <option value="3">This year</option>
+                                        </select>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <%= htmlWebpackPlugin.options.footer %>
         </main>

@@ -8,10 +8,13 @@ import chart from "../assets/sprite/icon-chart.svg";
 import dots from "../assets/sprite/icon-dots.svg";
 import eye from "../assets/sprite/icon-eye.svg";
 import filter from "../assets/sprite/icon-filter.svg";
+import less from "../assets/sprite/icon-less.svg";
 import mail from "../assets/sprite/icon-mail.svg";
+import minus from "../assets/sprite/icon-minus.svg";
 import more from "../assets/sprite/icon-more.svg";
 import pen from "../assets/sprite/icon-pen.svg";
 import pdf from "../assets/sprite/icon-pdf.svg";
+import plus from "../assets/sprite/icon-plus.svg";
 import search from "../assets/sprite/icon-search.svg";
 import setting from "../assets/sprite/icon-setting.svg";
 import scalePlus from "../assets/sprite/icon-scale-plus.svg";
@@ -31,6 +34,7 @@ export default {
     dots,
     eye,
     filter,
+    less,
     mail,
     more,
     pen,

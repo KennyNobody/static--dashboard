@@ -5,6 +5,18 @@
 
     &--more {
         color: $red;
+
+        .block-progress__icon {
+            fill: $red;
+        }
+    }
+
+    &--less {
+        color: $green;
+
+        .block-progress__icon {
+            fill: $green;
+        }
     }
 
     &__icon {

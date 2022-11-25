@@ -119,7 +119,7 @@
 </aside>
         </div>
         <main class="layout__content layout__content--regular">
-            <section class="section section--full section--centered">
+            <section class="section section--full section--centered section--padding">
                 <div class="toolbar mb-25">
                     <div class="calendar">
                         <label class="calendar__item">
@@ -207,10 +207,74 @@
                 </div>
                 <div class="columns">
                     <div class="columns__col columns__col--7">
-
+                        <div class="article full-height">
+                            <div class="article__header">
+                                <a href="" class="title-head">
+                                    <svg class="title-head__icon">
+                                        <use xlink:href="./assets/sprite/sprite.svg#icon-arrow-left"></use>
+                                    </svg>
+                                    <p class="title-head__text">
+                                        <b>Daily Report / June 8th</b>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="article__main">
+                                <div class="nav-tabs nav-tabs--orange mb-15">
+                                    <a class="nav-tabs__link active" data-toggler="active" href="">
+                                        Sales
+                                    </a>
+                                    <a class="nav-tabs__link" data-toggler="active" href="">
+                                        Services
+                                    </a>
+                                    <a class="nav-tabs__link" data-toggler="active" href="">
+                                        Comps
+                                    </a>
+                                    <a class="nav-tabs__link" data-toggler="active" href="">
+                                        Notes
+                                    </a>
+                                    <a class="nav-tabs__link" data-toggler="active" href="">
+                                        Reviews
+                                    </a>
+                                </div>
+                                <div class="columns columns--small">
+                                    <div class="columns__col columns__col--3">
+                                        <label class="field">
+                                            <span class="field__caption">
+                                                Total Sales<b>*</b>
+                                            </span>
+                                            <div class="field__wrapper">
+                                                <input class="field__input" type="text" value="$">
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="columns__col columns__col--3">
+                                        <label class="field">
+                                            <span class="field__caption">
+                                                Reservations (Guests)<b>*</b>
+                                            </span>
+                                            <div class="field__wrapper">
+                                                <input class="field__input" type="text" value="$">
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="article__footer">
+                                <button class="button button--orange-outline button--small">
+                                    <span class="button__text">
+                                        Cancel
+                                    </span>
+                                </button>
+                                <button class="button button--orange button--small">
+                                    <span class="button__text">
+                                        Save
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                     <div class="columns__col columns__col--5">
-                        <form class="article">
+                        <form class="article full-height">
                             <div class="article__header">
                                 <h2 class="title">
                                     Finance
