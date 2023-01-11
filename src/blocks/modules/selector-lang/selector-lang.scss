@@ -7,6 +7,11 @@
     background-color: $white;
     border: 1px solid $grey-light;
 
+    @include r(1200) {
+        top: rem(17);
+        right: rem(30);
+    }
+
     &.active {
         .selector-lang {
             &__list {
@@ -20,11 +25,11 @@
     }
 
     &__button {
-        gap: rem(4);
+        gap: rem(3);
         display: flex;
-        padding: rem(6);
         cursor: pointer;
         align-items: center;
+        padding: rem(6) rem(10);
         transition: 0.3s opacity;
 
         &:hover {
@@ -43,7 +48,7 @@
     &__flag {
         width: auto;
         display: block;
-        height: rem(33);
+        height: rem(28);
     }
 
     &__icon {

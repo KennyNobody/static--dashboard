@@ -172,7 +172,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
       id: "icon-chart-usage",
-      viewBox: "0 0 27 21",
+      viewBox: "0 0 20 22",
       url: "/assets/sprite/" + "sprite.svg#icon-chart-usage",
       toString: function () {
         return this.url;
@@ -423,6 +423,28 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/assets/sprite/icon-save.svg":
+/*!*****************************************!*\
+  !*** ./src/assets/sprite/icon-save.svg ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+      id: "icon-save-usage",
+      viewBox: "0 0 22 22",
+      url: "/assets/sprite/" + "sprite.svg#icon-save-usage",
+      toString: function () {
+        return this.url;
+      }
+    });
+
+/***/ }),
+
 /***/ "./src/assets/sprite/icon-scale-plus.svg":
 /*!***********************************************!*\
   !*** ./src/assets/sprite/icon-scale-plus.svg ***!
@@ -613,13 +635,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_sprite_icon_pen_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/sprite/icon-pen.svg */ "./src/assets/sprite/icon-pen.svg");
 /* harmony import */ var _assets_sprite_icon_pdf_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/sprite/icon-pdf.svg */ "./src/assets/sprite/icon-pdf.svg");
 /* harmony import */ var _assets_sprite_icon_plus_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/sprite/icon-plus.svg */ "./src/assets/sprite/icon-plus.svg");
-/* harmony import */ var _assets_sprite_icon_search_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/sprite/icon-search.svg */ "./src/assets/sprite/icon-search.svg");
-/* harmony import */ var _assets_sprite_icon_setting_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../assets/sprite/icon-setting.svg */ "./src/assets/sprite/icon-setting.svg");
-/* harmony import */ var _assets_sprite_icon_scale_plus_svg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../assets/sprite/icon-scale-plus.svg */ "./src/assets/sprite/icon-scale-plus.svg");
-/* harmony import */ var _assets_sprite_icon_shedule_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../assets/sprite/icon-shedule.svg */ "./src/assets/sprite/icon-shedule.svg");
-/* harmony import */ var _assets_sprite_icon_show_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../assets/sprite/icon-show.svg */ "./src/assets/sprite/icon-show.svg");
-/* harmony import */ var _assets_sprite_icon_delete_svg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../assets/sprite/icon-delete.svg */ "./src/assets/sprite/icon-delete.svg");
-/* harmony import */ var _assets_sprite_icon_write_svg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../assets/sprite/icon-write.svg */ "./src/assets/sprite/icon-write.svg");
+/* harmony import */ var _assets_sprite_icon_save_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/sprite/icon-save.svg */ "./src/assets/sprite/icon-save.svg");
+/* harmony import */ var _assets_sprite_icon_search_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../assets/sprite/icon-search.svg */ "./src/assets/sprite/icon-search.svg");
+/* harmony import */ var _assets_sprite_icon_setting_svg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../assets/sprite/icon-setting.svg */ "./src/assets/sprite/icon-setting.svg");
+/* harmony import */ var _assets_sprite_icon_scale_plus_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../assets/sprite/icon-scale-plus.svg */ "./src/assets/sprite/icon-scale-plus.svg");
+/* harmony import */ var _assets_sprite_icon_shedule_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../assets/sprite/icon-shedule.svg */ "./src/assets/sprite/icon-shedule.svg");
+/* harmony import */ var _assets_sprite_icon_show_svg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../assets/sprite/icon-show.svg */ "./src/assets/sprite/icon-show.svg");
+/* harmony import */ var _assets_sprite_icon_delete_svg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../assets/sprite/icon-delete.svg */ "./src/assets/sprite/icon-delete.svg");
+/* harmony import */ var _assets_sprite_icon_write_svg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../assets/sprite/icon-write.svg */ "./src/assets/sprite/icon-write.svg");
+
 
 
 
@@ -661,13 +685,15 @@ __webpack_require__.r(__webpack_exports__);
     more: _assets_sprite_icon_more_svg__WEBPACK_IMPORTED_MODULE_13__["default"],
     pen: _assets_sprite_icon_pen_svg__WEBPACK_IMPORTED_MODULE_14__["default"],
     pdf: _assets_sprite_icon_pdf_svg__WEBPACK_IMPORTED_MODULE_15__["default"],
-    search: _assets_sprite_icon_search_svg__WEBPACK_IMPORTED_MODULE_17__["default"],
-    setting: _assets_sprite_icon_setting_svg__WEBPACK_IMPORTED_MODULE_18__["default"],
-    scalePlus: _assets_sprite_icon_scale_plus_svg__WEBPACK_IMPORTED_MODULE_19__["default"],
-    shedule: _assets_sprite_icon_shedule_svg__WEBPACK_IMPORTED_MODULE_20__["default"],
-    show: _assets_sprite_icon_show_svg__WEBPACK_IMPORTED_MODULE_21__["default"],
-    trash: _assets_sprite_icon_delete_svg__WEBPACK_IMPORTED_MODULE_22__["default"],
-    write: _assets_sprite_icon_write_svg__WEBPACK_IMPORTED_MODULE_23__["default"]
+    plus: _assets_sprite_icon_plus_svg__WEBPACK_IMPORTED_MODULE_16__["default"],
+    save: _assets_sprite_icon_save_svg__WEBPACK_IMPORTED_MODULE_17__["default"],
+    search: _assets_sprite_icon_search_svg__WEBPACK_IMPORTED_MODULE_18__["default"],
+    setting: _assets_sprite_icon_setting_svg__WEBPACK_IMPORTED_MODULE_19__["default"],
+    scalePlus: _assets_sprite_icon_scale_plus_svg__WEBPACK_IMPORTED_MODULE_20__["default"],
+    shedule: _assets_sprite_icon_shedule_svg__WEBPACK_IMPORTED_MODULE_21__["default"],
+    show: _assets_sprite_icon_show_svg__WEBPACK_IMPORTED_MODULE_22__["default"],
+    trash: _assets_sprite_icon_delete_svg__WEBPACK_IMPORTED_MODULE_23__["default"],
+    write: _assets_sprite_icon_write_svg__WEBPACK_IMPORTED_MODULE_24__["default"]
 });
 
 

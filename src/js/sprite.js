@@ -15,6 +15,7 @@ import more from "../assets/sprite/icon-more.svg";
 import pen from "../assets/sprite/icon-pen.svg";
 import pdf from "../assets/sprite/icon-pdf.svg";
 import plus from "../assets/sprite/icon-plus.svg";
+import save from "../assets/sprite/icon-save.svg";
 import search from "../assets/sprite/icon-search.svg";
 import setting from "../assets/sprite/icon-setting.svg";
 import scalePlus from "../assets/sprite/icon-scale-plus.svg";
@@ -39,6 +40,8 @@ export default {
     more,
     pen,
     pdf,
+    plus,
+    save,
     search,
     setting,
     scalePlus,

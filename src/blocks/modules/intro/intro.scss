@@ -9,15 +9,24 @@
         width: 100%;
         height: 100%;
         display: flex;
-        padding: rem(70) rem(35) rem(70) rem(70);
         flex-direction: column;
         justify-content: center;
+        padding: rem(70) rem(35) rem(70) rem(70);
         background-color: rgba(36, 18, 81, 0.93);
+
+        @include r(1200) {
+            top: rem(17);
+            right: rem(30);
+        }
     }
 
     &__content {
         color: $white;
         min-height: rem(550);
+
+        @include r(1200) {
+            min-height: rem(400);
+        }
     }
 
     &__logo {
@@ -41,7 +50,7 @@
         padding: 0;
         border: none;
         width: rem(96);
-        margin-bottom: rem(60);
+        margin-bottom: rem(50);
         border-bottom: rem(4) solid $white;
     }
 
@@ -50,9 +59,17 @@
         font-weight: 400;
         font-size: rem(43);
 
+        @include r(1200) {
+            font-size: rem(32);
+        }
+
         strong {
             font-weight: 700;
             font-size: rem(44);
+
+            @include r(1200) {
+                font-size: rem(32);
+            }
         }
     }
 }
